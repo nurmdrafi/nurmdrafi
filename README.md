@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nur Mohamod Rafi</h1>
-<h3 align="center">A passionate Frontend developer from Bangladesh</h3>
+<h3 align="center">A passionate Frontend Developer from Bangladesh</h3>
 
 - 🌱 I’m currently learning **JavaScript and React**
 
