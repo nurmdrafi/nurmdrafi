@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **TypeScript and Next.js**
 
-- 📝 I regularly write articles on [https://devrafe.blogspot.com/](https://devrafe.blogspot.com/)
+- 🎯 Focusing on **Problem Solving**
 
 - 💬 Ask me about **JavaScript**
 
