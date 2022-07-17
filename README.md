@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nur Mohamod Rafi</h1>
 <h3 align="center">A passionate MERN Stack Developer from Bangladesh</h3>
 
-- 🌱 I’m currently learning **TypeScript and Next.js**
+- 🌱 I’m currently learning **Web Development**
 
 - 🎯 Focusing on **Problem Solving**
 
@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **nurmdrafi2014@gmail.com**
 
-- ⚡ Fun fact **I ❤ JavaScript**
+- ⚡ Fun fact **I ❤ to Explore the world!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
