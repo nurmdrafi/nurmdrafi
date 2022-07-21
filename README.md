@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Nur Mohamod Rafi</h1>
 <h3 align="center">A passionate MERN Stack Developer from Bangladesh</h3>
 
-- 🌱 I’m currently learning **Web Development**
+- 🌱 I’m currently learning **Full Stack Web Development**
 
-- 🎯 Focusing on **Problem Solving**
+- 🎯 Focusing on **Real Life Projects & Problem Solving**
 
 - 💬 Ask me about **JavaScript**
 
