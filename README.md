@@ -5,9 +5,9 @@
 
 - 🎯 Focusing on **Real Life Projects**
 
-- 💬 Ask me about **JavaScript**
-
 - 🐼 View my projects on **https://nurmdrafi-portfolio.web.app/**
+
+- 💬 Ask me about **Anything**
 
 - 📫 How to reach me **nurmdrafi2014@gmail.com**
 
