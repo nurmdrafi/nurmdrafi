@@ -1,11 +1,13 @@
 <h1 align="center">Hi 👋, I'm Nur Mohamod Rafi</h1>
 <h3 align="center">A passionate Full Stack Developer from Bangladesh</h3>
 
-- 🌱 I’m currently learning **MERN Stack Web Development**
+- 🐱‍👤 I’m always learning **Web Development**
 
-- 🎯 Focusing on **Real Life Projects & Problem Solving**
+- 🎯 Focusing on **Real Life Projects**
 
 - 💬 Ask me about **JavaScript**
+
+- 🐼 View my projects on **https://nurmdrafi-portfolio.web.app/**
 
 - 📫 How to reach me **nurmdrafi2014@gmail.com**
 
