@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Nur Mohamod Rafi</h1>
-<h3 align="center">A passionate Full Stack Developer from Bangladesh</h3>
+<h3 align="center">A passionate React Developer from Bangladesh</h3>
 
-- 🐱‍👤 I’m always learning **Web Development**
+- 🐱‍👤 I’m always learning **Code**
 
-- 🎯 Focusing on **Real Life Projects**
+- 🎯 Focusing on **Real Life Projects** with BEST PRACTICE
 
 - 🐼 View my projects on **https://nurmdrafi-portfolio.web.app/**
 
