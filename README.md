@@ -3,7 +3,7 @@
 
 - 🐱‍👤 I’m always learning **Code**
 
-- 🎯 Focusing on **Real Life Projects** with BEST PRACTICE
+- 🎯 Focusing on **Real Life Projects** with *BEST PRACTICES*
 
 - 🐼 View my projects on **https://nurmdrafi-portfolio.web.app/**
 
