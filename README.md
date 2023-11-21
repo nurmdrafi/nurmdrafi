@@ -88,4 +88,4 @@
 <!-- Language States -->
 <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurmdrafi" alt="nurmdrafi" /> -->
  
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nurmdrafi&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
+ [![Top Langs](https://github-readme-stats-nurmdrafi.vercel.app/api/top-langs/?username=nurmdrafi&langs_count=6)](https://github.com/nurmdrafi/github-readme-stats)
