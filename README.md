@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nur Mohamod Rafi</h1>
 <h3 align="center">A passionate Software Engineer from Bangladesh</h3>
 
-- 🐱‍👤 I’m always learning **Code**
-
 - 🎯 Focusing on **Code My Career** with *BEST PRACTICES*
 
 - 🐼 View my projects on **https://nurmdrafi-portfolio.web.app/**
