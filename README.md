@@ -3,7 +3,7 @@
 
 - 🎯 Focusing on **Code My Career** with *BEST PRACTICES*
 
-- 🐼 View my projects on **https://nurmdrafi-portfolio.web.app/**
+- 🐼 View my projects on **https://iamnur.vercel.app/**
 
 - 💬 Ask me about **Anything**
 
