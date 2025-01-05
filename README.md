@@ -89,3 +89,9 @@
  [![Top Langs](https://github-readme-stats-nurmdrafi.vercel.app/api/top-langs/?username=nurmdrafi&langs_count=6&show_icons=true)](https://github.com/nurmdrafi/github-readme-stats)
 --> 
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake.svg">
+</picture>
+
