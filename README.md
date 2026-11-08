@@ -1,199 +1,276 @@
-<h1 align="center">Nur Mohamod Rafi</h1>
+[<img alt="Nur Mohamod Rafi. Lead Frontend Engineer for live maps at scale. React, Next.js, MapLibre, WebGL. 1M+ users, 2.8M outlets, 2,000+ updates per second. Open to remote roles worldwide. Code 39 barcode NURMDRAFI. Links to portfolio." src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/hero-dark.svg">](https://nurmdrafi.vercel.app/)
 
-<p align="center">
-  <strong>Software Engineer - Frontend</strong><br/>
-  Lead Frontend Engineer @ Barikoi Technologies · Dhaka, Bangladesh
-</p>
 
-<p align="center">
-  <a href="https://nurmdrafi.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-nurmdrafi.vercel.app-24292e?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/nurmdrafi"><img src="https://img.shields.io/badge/LinkedIn-nurmdrafi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://medium.com/@nurmdrafi"><img src="https://img.shields.io/badge/Medium-%40nurmdrafi-24292e?style=flat-square&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://stackoverflow.com/users/15497939/nurmdrafi"><img src="https://img.shields.io/badge/Stack_Overflow-539%2B_rep-24292e?style=flat-square&logo=stackoverflow&logoColor=F58025" alt="Stack Overflow" /></a>
-  <a href="mailto:nurmdrafi2014@gmail.com"><img src="https://img.shields.io/badge/Email-nurmdrafi2014%40gmail.com-24292e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+## <img height="20" src="https://api.iconify.design/withicons-anime/activity.svg?color=%23FDD835" alt="" /> Service record
 
----
+`LEAD FRONTEND ENGINEER` — Barikoi Technologies, Dhaka · `MAR 2026 – PRESENT`
+`SOFTWARE ENGINEER - FRONTEND` — Barikoi Technologies, Dhaka · `NOV 2022 – FEB 2026`
+`EDUCATION` — BBA in Finance · Mohammadpur Central University College · `JUL 2014 – DEC 2019`
 
-## What I do
+## <img height="20" src="https://api.iconify.design/withicons-anime/map.svg?color=%23FDD835" alt="" /> Field log · selected work
 
-I lead frontend architecture and delivery for **Barikoi Maps** products - high-performance Map SDKs, dynamic geospatial applications, and enterprise mapping solutions serving millions of users across retail, banking, logistics, and e-commerce. I also maintain open-source mapping libraries on npm.
+| Record | Scale | Mechanism |
+|:--|:--|:--|
+| `PICKABOO` | `1M+ MOBILE · 500K+ REGISTERED · 10K+ TX/DAY` | `NEXT.JS APP ROUTER REBUILD · 10+ PAYMENT METHODS · 30% ORGANIC GROWTH` |
+| `AKG SALES LIVE` | `2.8M OUTLETS · 4,500+ REPS · 2,000+ UPDATES/S` | `LIVE SALES MAP · 25% FEWER ROUTE DEVIATIONS` |
+| `VERIFY` | `13+ FINANCIAL INSTITUTIONS` | `CONTACT POINT VERIFICATION · BANGLADESH FINTECH AWARD 2023` |
+| `GEO-FIBER` | `46,500+ KM FIBER` | `DECK.GL DASHBOARD · SERVER-SIDE KMZ/KML PIPELINE` |
+| `JTI` | `~6K LIVE USERS` | `LIVE ROUTES, OUTLETS, FIELD FORCE · TURF.JS GEO-REPORTING` |
+| `SALESKOI` | `RETAIL SAAS PLATFORM` | `MQTT LIVE UPDATES · TANSTACK TABLE · WEB WORKERS` |
+| `DROPX` | `LOGISTICS OPERATIONS` | `DECK.GL FLEET TRACKING OVER MQTT AND PUSHER` |
 
-**Focus areas**
+### Field notes
 
-- 🗺️ **Geospatial engineering** - MapLibre, Mapbox, deck.gl, Three.js, Turf.js, GeoJSON
-- ⚡ **Real-time systems** - MQTT, Pusher, Socket.io, WebSockets, live location tracking
-- 🛒 **E-commerce at scale** - Next.js App Router, SSR/ISR, SEO, multi-step checkout with 10+ payment methods
-- 🔧 **DevOps & CI/CD** - Docker, GitHub Actions, NGINX, PM2, Linux, SSL configuration; CI/CD pipelines across multiple environments
-- 🤖 **AI-assisted engineering** - Pi Coding Agent and Claude Code, with rigorous review of AI-generated output
+- `PICKABOO` — `40% FEWER API CALLS (RTK QUERY + OPTIMISTIC UPDATES) · NEXTAUTH SOCIAL + OTP LOGIN · JSON-LD + SITEMAP SEO · MAP-BASED ADDRESS SELECTION`
+- `AKG` — `SERVER-SIDE PROXY ROUTES · JWT + RBAC · BATCHED MQTT UPDATES · MEMOIZED COMPONENTS · RTK QUERY CACHING`
+- `VERIFY` — `VERSIONED API HANDSHAKE · MULTI-STATE WORKFLOW (PENDING / APPROVED / REJECTED) · MODULAR REACT + TS ARCHITECTURE`
+- `GEO-FIBER` — `MULTER 100MB UPLOADS · UNZIPPER · @TMCW/TOGEOJSON · PUSHER STREAMING · SENTRY + PM2`
+- `JTI` — `TLP + PERIOD-COMPARISON VIEWS · ANT DESIGN CHARTS · NUQS URL-DRIVEN FILTERS`
+- `SALESKOI` — `EXCEL EXPORTS · PROD / STAGING / REVIEW CI · ROLE-BASED + OTP · REACT-BKOI-GL MAP VIEW · COMLINK WORKERS · IDB CACHE · CMDK PALETTE`
+- `DROPX` — `MERCHANT + ADMIN PANELS · RIDERS, MERCHANTS, AGENTS · DELIVERY RATES · SUPPORT TICKETING · EXCEL / PDF EXPORTS`
 
-## Selected work
-
-| Project | Highlights |
-|:--|:--|
-| **Pickaboo** - e-commerce platform | Ground-up Next.js rebuild · 1M+ mobile users · 500K+ registered users · 10K+ daily transactions · 10+ payment methods · 30% organic traffic growth |
-| **AKG Sales Live** - sales ops & analytics | Live map dashboard · 2.8M retail outlets · 4,500+ sales reps tracked · 2,000+ live updates/sec · 25% fewer route deviations |
-| **Verify** - contact point verification | 🏆 Bangladesh Fintech Award 2023 · 13+ financial institutions |
-| **Geo-Fiber Tool** - fiber network dashboard | 46,500+ KM of fiber visualized with deck.gl · server-side KMZ/KML pipeline |
-| **JTI** - retail distribution dashboard | Live route, outlet & field-force visibility for ~6K trackable users |
-
-## Open source
-
-| Package | Downloads / month | About |
-|:--|:--:|:--|
-| [**bkoi-gl**](https://www.npmjs.com/package/bkoi-gl) | [![npm](https://img.shields.io/npm/dm/bkoi-gl?style=flat-square&color=24292e)](https://www.npmjs.com/package/bkoi-gl) | Framework-agnostic MapLibre GL Map SDK for React, Next.js, Vue, Angular, Svelte & vanilla JS · 17 releases |
-| [**react-bkoi-gl**](https://www.npmjs.com/package/react-bkoi-gl) | [![npm](https://img.shields.io/npm/dm/react-bkoi-gl?style=flat-square&color=24292e)](https://www.npmjs.com/package/react-bkoi-gl) | React component library & hooks around bkoi-gl · 14 releases |
-| [**barikoiapis**](https://www.npmjs.com/package/barikoiapis) | [![npm](https://img.shields.io/npm/dm/barikoiapis?style=flat-square&color=24292e)](https://www.npmjs.com/package/barikoiapis) | JavaScript & TypeScript SDK for Barikoi location & mapping APIs |
-| [**geo-polyline-tools**](https://www.npmjs.com/package/geo-polyline-tools) | [![npm](https://img.shields.io/npm/dm/geo-polyline-tools?style=flat-square&color=24292e)](https://www.npmjs.com/package/geo-polyline-tools) | Polyline encoding/decoding with GeoJSON LineString support · 7 releases |
-| [**barikoi-map-widget**](https://www.npmjs.com/package/barikoi-map-widget) | [![npm](https://img.shields.io/npm/dm/barikoi-map-widget?style=flat-square&color=24292e)](https://www.npmjs.com/package/barikoi-map-widget) | Embeddable Barikoi Maps widget · 4 releases |
-| [**barikoiapis-golang**](https://pkg.go.dev/github.com/barikoi/barikoiapis-golang) | - | Go SDK for Barikoi APIs · 7 tagged versions |
-
-## Tech stack
+## <img height="20" src="https://api.iconify.design/withicons-anime/wrench.svg?color=%23FDD835" alt="" /> Equipment
 
 **Frontend**
 
 <p>
-  <img src="https://img.shields.io/badge/React-24292e?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-24292e?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-24292e?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript_ES6%2B-24292e?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React_Native-24292e?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Redux_Toolkit-24292e?style=flat-square&logo=redux&logoColor=764ABC" alt="Redux Toolkit" />
-  <img src="https://img.shields.io/badge/RTK_Query-24292e?style=flat-square&logo=redux&logoColor=764ABC" alt="RTK Query" />
-  <img src="https://img.shields.io/badge/React_Router-24292e?style=flat-square&logo=reactrouter&logoColor=F44250" alt="React Router" />
-  <img src="https://img.shields.io/badge/React_Hook_Form-24292e?style=flat-square&logo=reacthookform&logoColor=EC5990" alt="React Hook Form" />
-  <img src="https://img.shields.io/badge/Zod-24292e?style=flat-square&logo=zod&logoColor=3E67B1" alt="Zod" />
-  <img src="https://img.shields.io/badge/TanStack-24292e?style=flat-square&logo=tanstack&logoColor=FFCA28" alt="TanStack" />
-  <img src="https://img.shields.io/badge/PWA-24292e?style=flat-square&logo=pwa&logoColor=5A0FC8" alt="PWA" />
-  <img src="https://img.shields.io/badge/Expo-24292e?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/HTML5-24292e?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-24292e?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-24292e?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Ant_Design-24292e?style=flat-square&logo=antdesign&logoColor=0170FE" alt="Ant Design" />
-  <img src="https://img.shields.io/badge/Material_UI-24292e?style=flat-square&logo=mui&logoColor=007FFF" alt="Material UI" />
-  <img src="https://img.shields.io/badge/Shadcn-24292e?style=flat-square&logo=shadcnui&logoColor=white" alt="Shadcn" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/reactjs.svg" alt="React" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/nextjs.svg" alt="Next.js" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/typescript.svg" alt="TypeScript" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/javascript.svg" alt="JavaScript" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactnative/reactnative-original.svg" alt="React Native" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/pwa.svg" alt="PWA" />
+  <img height="26" src="https://expo.dev/static/favicons/favicon-dark-32x32.png" alt="Expo" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/redux.svg" alt="Redux" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/reactrouter.svg" alt="React Router" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/zod.svg" alt="Zod" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/tanstack.svg" alt="TanStack" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/html5.svg" alt="HTML5" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/css3.svg" alt="CSS" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/tailwindcss.svg" alt="Tailwind CSS" />
+  <img height="26" src="https://api.iconify.design/logos/ant-design.svg" alt="Ant Design" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/materialui.svg" alt="Material UI" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/shadcnui.svg" alt="Shadcn/ui" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vuejs.svg" alt="Vue.js" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/sveltejs.svg" alt="Svelte" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/angular.svg" alt="Angular" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/bootstrap5.svg" alt="Bootstrap 5" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/sass.svg" alt="Sass" />
 </p>
+
+<sub><code>REACT · NEXT.JS · TYPESCRIPT · JAVASCRIPT ES6+ · REACT NATIVE · PWA · EXPO · REDUX TOOLKIT · RTK QUERY · REACT ROUTER · ZOD · TANSTACK · HTML5 · CSS3 · TAILWIND CSS · ANT DESIGN · MATERIAL UI · SHADCN · VUE.JS · SVELTE · ANGULAR · BOOTSTRAP 5 · SASS</code></sub>
 
 **Geospatial & Visualization**
 
 <p>
-  <img src="https://img.shields.io/badge/MapLibre-24292e?style=flat-square&logo=maplibre&logoColor=white" alt="MapLibre" />
-  <img src="https://img.shields.io/badge/Mapbox-24292e?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox" />
-  <img src="https://img.shields.io/badge/deck.gl-24292e?style=flat-square" alt="deck.gl" />
-  <img src="https://img.shields.io/badge/Kepler.gl-24292e?style=flat-square" alt="Kepler.gl" />
-  <img src="https://img.shields.io/badge/Three.js-24292e?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/WebGL-24292e?style=flat-square&logo=webgl&logoColor=white" alt="WebGL" />
-  <img src="https://img.shields.io/badge/Turf.js-24292e?style=flat-square" alt="Turf.js" />
-  <img src="https://img.shields.io/badge/Tileserver--gl-24292e?style=flat-square" alt="Tileserver-gl" />
-  <img src="https://img.shields.io/badge/Martin-24292e?style=flat-square" alt="Martin" />
-  <img src="https://img.shields.io/badge/KML%2FKMZ-24292e?style=flat-square" alt="KML/KMZ" />
-  <img src="https://img.shields.io/badge/GeoJSON-24292e?style=flat-square" alt="GeoJSON" />
+  <img height="26" src="https://api.iconify.design/simple-icons/maplibre.svg?color=%23ffffff" alt="MapLibre" />
+  <img height="26" src="https://api.iconify.design/logos/mapbox.svg" alt="Mapbox" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/visgl/deck.gl@master/bindings/pydeck/docs/logo.svg" alt="Deck.gl" />
+  <img height="26" src="https://kepler.gl/favicon.png" alt="Kepler.gl" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/threejs-light.svg" alt="Three.js" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webgl/webgl-original.svg" alt="WebGL" />
+  <img height="26" src="https://turfjs.org/img/logo.svg" alt="Turf.js" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/maptiler/tileserver-gl@master/public/resources/images/logo.png" alt="Tileserver-gl" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/maplibre/martin@main/graphics/logo.svg" alt="Martin" />
 </p>
+
+<sub><code>MAPLIBRE · MAPBOX · DECK.GL · KEPLER.GL · THREE.JS · WEBGL · TURF.JS · TILESERVER-GL · MARTIN · KML/KMZ · GEOJSON</code></sub>
 
 **Real-Time Communication**
 
 <p>
-  <img src="https://img.shields.io/badge/MQTT-24292e?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT" />
-  <img src="https://img.shields.io/badge/Pusher-24292e?style=flat-square&logo=pusher&logoColor=white" alt="Pusher" />
-  <img src="https://img.shields.io/badge/Socket.io-24292e?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" />
-  <img src="https://img.shields.io/badge/WebSockets-24292e?style=flat-square" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/Live_Location_Tracking-24292e?style=flat-square" alt="Live Location Tracking" />
-  <img src="https://img.shields.io/badge/Event--Driven_Architectures-24292e?style=flat-square" alt="Event-Driven Architectures" />
+  <img height="26" src="https://api.iconify.design/simple-icons/mqtt.svg?color=%23ffffff" alt="MQTT" />
+  <img height="26" src="https://api.iconify.design/logos/pusher.svg" alt="Pusher" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/socketio/socket.io-website@master/static/images/logo-dark.svg" alt="Socket.IO" />
+  <img height="26" src="https://api.iconify.design/logos/websocket.svg" alt="WebSockets" />
 </p>
+
+<sub><code>MQTT · PUSHER · SOCKET.IO · WEBSOCKETS · LIVE LOCATION TRACKING · EVENT-DRIVEN ARCHITECTURES</code></sub>
 
 **Cloud Platforms**
 
 <p>
-  <img src="https://img.shields.io/badge/AWS-24292e?style=flat-square&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
-  <img src="https://img.shields.io/badge/GCP-24292e?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP" />
-  <img src="https://img.shields.io/badge/Azure-24292e?style=flat-square&logo=microsoftazure&logoColor=0089D6" alt="Azure" />
-  <img src="https://img.shields.io/badge/Cloudflare-24292e?style=flat-square&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Vercel-24292e?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Firebase-24292e?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/aws.svg" alt="AWS" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/google-cloud.svg" alt="GCP" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/azure.svg" alt="Azure" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/cloudflare.svg" alt="Cloudflare" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vercel-light.svg" alt="Vercel" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/netlify.svg" alt="Netlify" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/heroku.svg" alt="Heroku" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/firebase.svg" alt="Firebase" />
 </p>
+
+<sub><code>AWS · GCP · AZURE · CLOUDFLARE · VERCEL · NETLIFY · HEROKU · FIREBASE HOSTING</code></sub>
 
 **DevOps & CI/CD**
 
 <p>
-  <img src="https://img.shields.io/badge/Docker-24292e?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-24292e?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-24292e?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/PM2-24292e?style=flat-square&logo=pm2&logoColor=white" alt="PM2" />
-  <img src="https://img.shields.io/badge/NGINX-24292e?style=flat-square&logo=nginx&logoColor=009639" alt="NGINX" />
-  <img src="https://img.shields.io/badge/SSL_Configuration-24292e?style=flat-square" alt="SSL Configuration" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/docker.svg" alt="Docker" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/linux.svg" alt="Linux" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/ubuntu.svg" alt="Ubuntu" />
+  <img height="26" src="https://api.iconify.design/logos/github-actions.svg" alt="GitHub Actions" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/jenkins.svg" alt="Jenkins" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/grafana.svg" alt="Grafana" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/jira.svg" alt="Jira" />
+  <img height="26" src="https://api.iconify.design/logos/pm2.svg" alt="PM2" />
+  <img height="26" src="https://api.iconify.design/logos/nginx.svg" alt="NGINX" />
 </p>
+
+<sub><code>DOCKER · LINUX · UBUNTU · GITHUB ACTIONS · JENKINS · GRAFANA · JIRA · PM2 · NGINX · SSL CONFIGURATION</code></sub>
 
 **Testing & Quality**
 
 <p>
-  <img src="https://img.shields.io/badge/Jest-24292e?style=flat-square&logo=jest&logoColor=C21325" alt="Jest" />
-  <img src="https://img.shields.io/badge/Vitest-24292e?style=flat-square&logo=vitest&logoColor=6E9F18" alt="Vitest" />
-  <img src="https://img.shields.io/badge/React_Testing_Library-24292e?style=flat-square&logo=testinglibrary&logoColor=E33332" alt="React Testing Library" />
-  <img src="https://img.shields.io/badge/Playwright-24292e?style=flat-square&logo=playwright&logoColor=2EAD33" alt="Playwright" />
-  <img src="https://img.shields.io/badge/E2E_Testing-24292e?style=flat-square" alt="E2E Testing" />
-  <img src="https://img.shields.io/badge/SonarQube-24292e?style=flat-square&logo=sonar&logoColor=549DD0" alt="SonarQube" />
-  <img src="https://img.shields.io/badge/Sentry-24292e?style=flat-square&logo=sentry&logoColor=white" alt="Sentry" />
-  <img src="https://img.shields.io/badge/Accessibility_%28a11y%29-24292e?style=flat-square" alt="Accessibility (a11y)" />
-  <img src="https://img.shields.io/badge/Code_Reviews-24292e?style=flat-square" alt="Code Reviews" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/jest.svg" alt="Jest" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vitest.svg" alt="Vitest" />
+  <img height="26" src="https://api.iconify.design/logos/testing-library.svg" alt="React Testing Library" />
+  <img height="26" src="https://api.iconify.design/logos/sonarqube.svg" alt="SonarQube" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/playwright.svg" alt="Playwright" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/k6.svg" alt="k6" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/postman.svg" alt="Postman" />
+  <img height="26" src="https://api.iconify.design/logos/sentry.svg" alt="Sentry" />
 </p>
+
+<sub><code>JEST · VITEST · REACT TESTING LIBRARY · SONARQUBE · PLAYWRIGHT · K6 · POSTMAN · E2E TESTING · SENTRY · ACCESSIBILITY (A11Y) · CODE REVIEWS</code></sub>
 
 **Payment Integrations**
 
 <p>
-  <img src="https://img.shields.io/badge/Stripe-24292e?style=flat-square&logo=stripe&logoColor=635BFF" alt="Stripe" />
-  <img src="https://img.shields.io/badge/bKash-24292e?style=flat-square" alt="bKash" />
-  <img src="https://img.shields.io/badge/Nagad-24292e?style=flat-square" alt="Nagad" />
-  <img src="https://img.shields.io/badge/aamarPay-24292e?style=flat-square" alt="aamarPay" />
-  <img src="https://img.shields.io/badge/SSLCOMMERZ-24292e?style=flat-square" alt="SSLCOMMERZ" />
-  <img src="https://img.shields.io/badge/EMI_%2F_Cardless_EMI_%2F_COD-24292e?style=flat-square" alt="EMI / Cardless EMI / COD" />
-  <img src="https://img.shields.io/badge/Multi--step_Checkout-24292e?style=flat-square" alt="Multi-step Checkout" />
+  <img height="26" src="https://api.iconify.design/logos/stripe.svg" alt="Stripe" />
+  <img height="26" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/bkash-com-brandmark.svg" alt="bKash" />
+  <img height="26" src="https://aamarpay.com/images/logo/aamarpay_logo.png" alt="aamarPay" />
+  <img height="26" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Sslcommerz_logo.svg" alt="SSLCOMMERZ" />
 </p>
+
+<sub><code>STRIPE · BKASH · NAGAD · AAMARPAY · SSLCOMMERZ · EMI / CARDLESS EMI / COD · MULTI-STEP CHECKOUT</code></sub>
 
 **Backend**
 
 <p>
-  <img src="https://img.shields.io/badge/Node.js-24292e?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-24292e?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Hono-24292e?style=flat-square&logo=hono&logoColor=E36002" alt="Hono" />
-  <img src="https://img.shields.io/badge/MongoDB-24292e?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-24292e?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-24292e?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis" />
-  <img src="https://img.shields.io/badge/REST_APIs-24292e?style=flat-square&logo=openapiinitiative&logoColor=6BA539" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/JWT-24292e?style=flat-square&logo=jsonwebtokens&logoColor=D63AFF" alt="JWT" />
-  <img src="https://img.shields.io/badge/MVC_Architecture-24292e?style=flat-square" alt="MVC Architecture" />
-  <img src="https://img.shields.io/badge/Server--side_Proxy_Routes-24292e?style=flat-square" alt="Server-side Proxy Routes" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/nodejs.svg" alt="Node.js" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/expressjs-light.svg" alt="Express.js" />
+  <img height="26" src="https://api.iconify.design/logos/hono.svg" alt="Hono" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/mongodb.svg" alt="MongoDB" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/redis.svg" alt="Redis" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/go.svg" alt="Go" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/rust-light.svg" alt="Rust" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/bunjs.svg" alt="Bun" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/swagger.svg" alt="Swagger" />
+  <img height="26" src="https://api.iconify.design/logos/jwt.svg" alt="JWT" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/auth0.svg" alt="Auth0" />
 </p>
+
+<sub><code>NODE.JS · EXPRESS.JS · HONO · MONGODB · REDIS · GO · RUST · BUN · REST APIS · SWAGGER · JWT · AUTH0 · MVC ARCHITECTURE · FIREBASE · SERVER-SIDE PROXY ROUTES</code></sub>
 
 **AI-Assisted Engineering**
 
 <p>
-  <img src="https://img.shields.io/badge/Claude_Code-24292e?style=flat-square&logo=claude&logoColor=D97757" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Pi_Coding_Agent-24292e?style=flat-square" alt="Pi Coding Agent" />
-  <img src="https://img.shields.io/badge/Prompt--Driven_Development-24292e?style=flat-square" alt="Prompt-Driven Development" />
-  <img src="https://img.shields.io/badge/AI_Output_Validation-24292e?style=flat-square" alt="AI Output Validation" />
+  <img height="26" src="https://api.iconify.design/mdi/pi.svg?color=%23ffffff" alt="Pi coding agent" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/claude-ai.svg" alt="Claude Code" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/anthropic.svg" alt="Anthropic" />
+  <img height="26" src="https://api.iconify.design/logos/openai.svg?color=%23ffffff" alt="OpenAI" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/chatgpt.svg" alt="ChatGPT" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/deepseek.svg" alt="DeepSeek" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/cursor-light.svg" alt="Cursor" />
 </p>
+
+<sub><code>PI-NATIVE · PI CODING AGENT · CLAUDE CODE · ANTHROPIC · OPENAI · CHATGPT · DEEPSEEK · CURSOR · PROMPT-DRIVEN DEVELOPMENT · AI OUTPUT VALIDATION</code></sub>
 
 **Documentation & Tooling**
 
 <p>
-  <img src="https://img.shields.io/badge/Docusaurus-24292e?style=flat-square&logo=docusaurus&logoColor=3ECC5F" alt="Docusaurus" />
-  <img src="https://img.shields.io/badge/Storybook-24292e?style=flat-square&logo=storybook&logoColor=FF4785" alt="Storybook" />
-  <img src="https://img.shields.io/badge/Figma-24292e?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma" />
-  <img src="https://img.shields.io/badge/Git-24292e?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Vite-24292e?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite" />
-  <img src="https://img.shields.io/badge/npm_Package_Development-24292e?style=flat-square&logo=npm&logoColor=CB3837" alt="npm Package Development" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/docusaurus.svg" alt="Docusaurus" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/storybook.svg" alt="Storybook" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/figma.svg" alt="Figma" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/git.svg" alt="Git" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/github-light.svg" alt="GitHub" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vitejs.svg" alt="Vite" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/webpack.svg" alt="Webpack" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/rollup.svg" alt="Rollup" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/babel.svg" alt="Babel" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/eslint.svg" alt="ESLint" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/prettier.svg" alt="Prettier" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/pnpm-dark.svg" alt="pnpm" />
+  <img height="26" src="https://api.iconify.design/logos/markdown.svg?color=%23ffffff" alt="Markdown" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/json.svg" alt="JSON" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/npm.svg" alt="npm" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/sublime.svg" alt="Sublime Text" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vim.svg" alt="Vim" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vscode.svg" alt="VS Code" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/ghostty.svg" alt="Ghostty" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/homebrew.svg" alt="Homebrew" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/brave.svg" alt="Brave" />
+  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/discord.svg" alt="Discord" />
 </p>
 
-## Writing & community
+<sub><code>DOCUSAURUS · STORYBOOK · FIGMA · GIT · GITHUB · VITE · WEBPACK · ROLLUP · BABEL · ESLINT · PRETTIER · PNPM · MARKDOWN · JSON · NPM PACKAGE DEVELOPMENT · SUBLIME TEXT · VIM · VS CODE · GHOSTTY · HOMEBREW · BRAVE · DISCORD</code></sub>
 
-- ✍️ Published **8** technical articles on [Medium](https://medium.com/@nurmdrafi)
-- 💡 **539+** reputation across **27** answers on [Stack Overflow](https://stackoverflow.com/users/15497939/nurmdrafi)
+## <img height="20" src="https://api.iconify.design/withicons-anime/package.svg?color=%23FDD835" alt="" /> Open source · depot
+
+### [pi-native](https://github.com/nurmdrafi/pi-native) — Pi coding-agent harness
+
+A performance-focused Pi coding-agent harness with native Rust tools, fail-closed permission gates, and token-efficient context management.
+
+`AGENT-HARNESS · RUST · PERMISSION GATES · TOKEN OPTIMIZATION · TUI · SUBAGENTS · SKILLS · EXTENSIONS` — `MACOS · LINUX · MIT`
+
+[![stars](https://img.shields.io/github/stars/nurmdrafi/pi-native?style=flat-square&labelColor=24292F&color=FDD835)](https://github.com/nurmdrafi/pi-native/stargazers)
+
+### [bkoi-gl](https://www.npmjs.com/package/bkoi-gl) — Barikoi Maps SDK
+
+A WebGL interactive maps library for Barikoi maps and APIs, wrapped for React, Next.js, Nuxt, Vue, Angular, Svelte, and vanilla JS. 17 releases across 4 major versions.
+
+`WEBGL · MAPLIBRE GL · SDK` — `REACT · NEXT.JS · NUXT · VUE · ANGULAR · SVELTE · VANILLA JS`
+
+[![downloads](https://img.shields.io/npm/dm/bkoi-gl?style=flat-square&labelColor=24292F&color=35F1DA&label=DL%2FMO)](https://www.npmjs.com/package/bkoi-gl)
+
+### [react-bkoi-gl](https://www.npmjs.com/package/react-bkoi-gl) — Barikoi Maps for React
+
+A React library for Barikoi Maps with interactive components, markers, popups, and controls. 14 releases across 3 major versions.
+
+`REACT · COMPONENTS · MARKERS · POPUPS · CONTROLS` — `BKOI-GL WRAPPER`
+
+[![downloads](https://img.shields.io/npm/dm/react-bkoi-gl?style=flat-square&labelColor=24292F&color=35F1DA&label=DL%2FMO)](https://www.npmjs.com/package/react-bkoi-gl)
+
+### [barikoiapis](https://www.npmjs.com/package/barikoiapis) — Barikoi Location Services SDK
+
+Official TypeScript/JavaScript SDK for Barikoi Location Services — geocoding, search, and mapping APIs.
+
+`TYPESCRIPT · JAVASCRIPT · SDK` — `BARIKOI LOCATION SERVICES`
+
+[![downloads](https://img.shields.io/npm/dm/barikoiapis?style=flat-square&labelColor=24292F&color=35F1DA&label=DL%2FMO)](https://www.npmjs.com/package/barikoiapis)
+
+### [geo-polyline-tools](https://www.npmjs.com/package/geo-polyline-tools) — Polyline utilities
+
+Utility functions to encode and decode polyline coordinates, with GeoJSON LineString support. 7 releases.
+
+`POLYLINE ENCODE / DECODE` — `GEOJSON · LINESTRING`
+
+[![downloads](https://img.shields.io/npm/dm/geo-polyline-tools?style=flat-square&labelColor=24292F&color=35F1DA&label=DL%2FMO)](https://www.npmjs.com/package/geo-polyline-tools)
+
+### [barikoi-map-widget](https://www.npmjs.com/package/barikoi-map-widget) — Embeddable map widget
+
+A customizable map widget built with React, designed for seamless integration with Barikoi's map services. 4 releases.
+
+`REACT · EMBEDDABLE WIDGET` — `CUSTOMIZABLE`
+
+[![downloads](https://img.shields.io/npm/dm/barikoi-map-widget?style=flat-square&labelColor=24292F&color=35F1DA&label=DL%2FMO)](https://www.npmjs.com/package/barikoi-map-widget)
+
+### [barikoiapis-golang](https://pkg.go.dev/github.com/barikoi/barikoiapis-golang) — Barikoi SDK for Go
+
+Go SDK for Barikoi Location Services. 7 tagged versions.
+
+`GO · SDK` — `BARIKOI LOCATION SERVICES`
+
+
+## <img height="20" src="https://api.iconify.design/withicons-anime/radio.svg?color=%23FDD835" alt="" /> Transmissions
+
+`MEDIUM` — 8 technical articles → [medium.com/@nurmdrafi](https://medium.com/@nurmdrafi)
+`STACK OVERFLOW` — 539+ reputation · 27 answers → [stackoverflow.com/users/15497939/nurmdrafi](https://stackoverflow.com/users/15497939/nurmdrafi)
+
+## <img height="20" src="https://api.iconify.design/withicons-anime/satellite-dish.svg?color=%23FDD835" alt="" /> Signal
+
+[Portfolio](https://nurmdrafi.vercel.app/) · [LinkedIn](https://linkedin.com/in/nurmdrafi) · [GitHub](https://github.com/nurmdrafi) · [Medium](https://medium.com/@nurmdrafi) · [Stack Overflow](https://stackoverflow.com/users/15497939/nurmdrafi) · [nurmdrafi2014@gmail.com](mailto:nurmdrafi2014@gmail.com)
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake.svg">
-</picture>
+<img alt="Activity scan: contribution grid snake animation" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/output/github-contribution-grid-snake-dark.svg">

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="at ad">
+  <title id="at">Nur Mohamod Rafi - frontend lead, metrics strip</title>
+  <desc id="ad">Modern minimal banner: name with gradient, role line, four key metrics, one line on pi-native.</desc>
+  <defs>
+    <linearGradient id="ng" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A0D12"/>
+      <stop offset="1" stop-color="#6B7280"/>
+    </linearGradient>
+  </defs>
+
+  <text x="80" y="170" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="url(#ng)">Nur Mohamod Rafi</text>
+  <text x="80" y="214" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="19" fill="#57606A">Software Engineer - Frontend · Lead Frontend Engineer @ Barikoi Technologies · Dhaka</text>
+  <rect x="80" y="244" width="64" height="3" fill="#1F6FEB"/>
+
+  <line x1="80" y1="306" x2="1120" y2="306" stroke="#D1D9E0" stroke-width="1"/>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <text x="80"  y="360" font-size="30" font-weight="700" fill="#1F2328">1M+</text>
+    <text x="80"  y="386" font-size="12.5" fill="#59636E" letter-spacing="0.8">MOBILE USERS · PICKABOO</text>
+
+    <text x="360" y="360" font-size="30" font-weight="700" fill="#1F2328">2.8M</text>
+    <text x="360" y="386" font-size="12.5" fill="#59636E" letter-spacing="0.8">RETAIL OUTLETS MAPPED · AKG</text>
+
+    <text x="640" y="360" font-size="30" font-weight="700" fill="#1F2328">2,000+</text>
+    <text x="640" y="386" font-size="12.5" fill="#59636E" letter-spacing="0.8">LIVE UPDATES / SEC · MQTT</text>
+
+    <text x="920" y="360" font-size="30" font-weight="700" fill="#1F2328">46,500+</text>
+    <text x="920" y="386" font-size="12.5" fill="#59636E" letter-spacing="0.8">KM FIBER VISUALIZED · DECK.GL</text>
+  </g>
+
+  <line x1="80" y1="428" x2="1120" y2="428" stroke="#D1D9E0" stroke-width="1"/>
+  <text x="80" y="458" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13.5" fill="#59636E">Also building pi-native — a performance-focused Pi coding-agent harness · native Rust tools · fail-closed permission gates</text>
+</svg>

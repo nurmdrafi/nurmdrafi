@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="nwt nwd">
+  <title id="nwt">Nur Mohamod Rafi - engineering network map</title>
+  <desc id="nwd">Metro-style network. M Mapmaking line: Barikoi Maps, AKG Sales Live, Geo-Fiber Tool, JTI Dashboard, DropX, plus an open-source depot branch of six packages. C Commerce line: Pickaboo to Saleskoi. R Real-Time line shares track from AKG Sales Live through Geo-Fiber Tool down to Saleskoi. H Harness line runs from Barikoi Maps to pi-native. The Barikoi Maps interchange pulses: current role.</desc>
+
+  <!-- legend -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#F0F6FC">
+    <circle cx="52" cy="44" r="5" fill="#5B9BF0"/><text x="64" y="48">Mapmaking</text>
+    <circle cx="170" cy="44" r="5" fill="#F0705F"/><text x="182" y="48">Commerce</text>
+    <circle cx="288" cy="44" r="5" fill="#4CC38A"/><text x="296" y="48">Real-Time</text>
+    <circle cx="402" cy="44" r="5" fill="#F5B84A"/><text x="410" y="48">Harness</text>
+  </g>
+
+  <!-- tracks -->
+  <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 80 250 H 1060" stroke="#5B9BF0"/>
+    <path d="M 420 250 L 490 320 H 1110" stroke="#5B9BF0"/>
+    <path d="M 130 440 H 760" stroke="#F0705F"/>
+    <path d="M 420 258 H 648 V 384 L 712 448 H 760" stroke="#4CC38A"/>
+    <path d="M 200 250 L 300 150 H 1060" stroke="#F5B84A"/>
+  </g>
+
+  <!-- terminus bars -->
+  <g fill="#5B9BF0">
+    <rect x="1056" y="239" width="8" height="22" rx="3"/>
+    <rect x="1106" y="309" width="8" height="22" rx="3"/>
+  </g>
+  <rect x="126" y="429" width="8" height="22" rx="3" fill="#F0705F"/>
+  <rect x="1056" y="139" width="8" height="22" rx="3" fill="#F5B84A"/>
+
+  <!-- stations -->
+  <g fill="#0D1117" stroke-width="3">
+    <circle cx="820" cy="250" r="6" stroke="#5B9BF0"/>
+    <circle cx="560" cy="320" r="4.5" stroke="#5B9BF0" stroke-width="2.5"/>
+    <circle cx="680" cy="320" r="4.5" stroke="#5B9BF0" stroke-width="2.5"/>
+    <circle cx="790" cy="320" r="4.5" stroke="#5B9BF0" stroke-width="2.5"/>
+    <circle cx="910" cy="320" r="4.5" stroke="#5B9BF0" stroke-width="2.5"/>
+    <circle cx="1010" cy="320" r="4.5" stroke="#5B9BF0" stroke-width="2.5"/>
+    <circle cx="660" cy="150" r="4.5" stroke="#F5B84A" stroke-width="2.5"/>
+  </g>
+  <!-- interchanges -->
+  <g fill="#0D1117" stroke="#F0F6FC" stroke-width="3">
+    <circle cx="420" cy="250" r="8"/>
+    <circle cx="640" cy="250" r="8"/>
+    <circle cx="760" cy="440" r="8"/>
+  </g>
+  <circle cx="200" cy="250" r="10" fill="#0D1117" stroke="#F0F6FC" stroke-width="3.5"/>
+
+  <!-- live pulse: current role -->
+  <circle cx="200" cy="250" r="10" fill="none" stroke="#5B9BF0" stroke-width="2.5" opacity="0.5">
+    <animate attributeName="r" values="10;24" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- line chips -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#0D1117">
+    <rect x="67" y="239" width="22" height="22" rx="6" fill="#5B9BF0"/><text x="78" y="255">M</text>
+    <rect x="85" y="429" width="22" height="22" rx="6" fill="#F0705F"/><text x="96" y="445">C</text>
+    <rect x="801" y="429" width="22" height="22" rx="6" fill="#4CC38A"/><text x="812" y="445">R</text>
+    <rect x="1087" y="139" width="22" height="22" rx="6" fill="#F5B84A"/><text x="1098" y="155">H</text>
+  </g>
+
+  <!-- labels -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" text-anchor="middle">
+    <text x="200" y="205" font-size="16" font-weight="700" fill="#F0F6FC">Barikoi Maps</text>
+    <text x="420" y="214" font-size="14.5" font-weight="600" fill="#F0F6FC">AKG Sales Live</text>
+    <text x="640" y="214" font-size="14.5" font-weight="600" fill="#F0F6FC">Geo-Fiber Tool</text>
+    <text x="820" y="214" font-size="14.5" font-weight="600" fill="#F0F6FC">JTI Dashboard</text>
+    <text x="1060" y="288" font-size="14.5" font-weight="600" fill="#F0F6FC">DropX</text>
+    <text x="130" y="412" font-size="14.5" font-weight="600" fill="#F0F6FC">Pickaboo</text>
+    <text x="760" y="472" font-size="14.5" font-weight="600" fill="#F0F6FC">Saleskoi</text>
+    <text x="1060" y="118" font-size="15" font-weight="700" fill="#F0F6FC">pi-native</text>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="middle" fill="#9198A1">
+    <text x="200" y="221">Lead Frontend Engineer · Mar 2026 – present</text>
+    <text x="420" y="230">2.8M outlets · 2,000+ updates/s</text>
+    <text x="640" y="230">46,500+ KM · deck.gl</text>
+    <text x="820" y="230">~6K live users</text>
+    <text x="1060" y="304">fleet tracking</text>
+    <text x="130" y="428">1M+ users · 10K+ tx/day</text>
+    <text x="760" y="488">retail SaaS</text>
+    <text x="1060" y="134">Rust tools · fail-closed gates</text>
+    <text x="660" y="132">Pi · Claude, daily</text>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5" text-anchor="middle" fill="#F0F6FC">
+    <text x="560" y="344">bkoi-gl · 17 rel.</text>
+    <text x="680" y="344">react-bkoi-gl · 14</text>
+    <text x="790" y="344">barikoiapis</text>
+    <text x="910" y="344">geo-polyline-tools</text>
+    <text x="1010" y="344">barikoi-map-widget</text>
+    <text x="1110" y="344">barikoiapis-golang</text>
+    <text x="497" y="305" font-size="11" fill="#9198A1">OSS depot · npm + Go</text>
+  </g>
+</svg>

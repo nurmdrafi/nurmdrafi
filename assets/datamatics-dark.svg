@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="kt kd">
+  <title id="kt">NUR MOHAMOD RAFI - data field</title>
+  <desc id="kd">Black data field: monospace hero name block with blinking caret, hairline-ruled data columns with a scan line.</desc>
+
+  <rect width="1200" height="500" fill="#000000"/>
+  <rect x="40" y="40" width="1120" height="420" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+
+  <!-- hero -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#FFFFFF">
+    <text x="80" y="168" font-size="72" font-weight="600" letter-spacing="2">NUR MOHAMOD</text>
+    <text x="80" y="240" font-size="72" font-weight="600" letter-spacing="2">RAFI</text>
+    <rect x="272" y="190" width="12" height="50" fill="#FFFFFF">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="80" y="288" font-size="14" font-weight="500" letter-spacing="4" opacity="0.75">SOFTWARE ENGINEER - FRONTEND</text>
+    <text x="80" y="312" font-size="12" letter-spacing="3" opacity="0.75">LEAD @ BARIKOI · DHAKA</text>
+  </g>
+
+  <line x1="80" y1="344" x2="760" y2="344" stroke="#FFFFFF" stroke-width="1" opacity="0.32"/>
+
+  <!-- data columns -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#FFFFFF">
+    <line x1="680" y1="140" x2="1120" y2="140" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="164" font-weight="600">PICKABOO</text><text x="880" y="164" opacity="0.75">1M+ USERS</text><text x="1120" y="164" text-anchor="end" opacity="0.32">10K+ TX/DAY</text>
+    <line x1="680" y1="180" x2="1120" y2="180" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="204" font-weight="600">AKG SALES LIVE</text><text x="880" y="204" opacity="0.75">2.8M OUTLETS</text><text x="1120" y="204" text-anchor="end" opacity="0.32">2,000+/S</text>
+    <line x1="680" y1="220" x2="1120" y2="220" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="244" font-weight="600">GEO-FIBER</text><text x="880" y="244" opacity="0.75">46,500+ KM</text><text x="1120" y="244" text-anchor="end" opacity="0.32">DECK.GL</text>
+    <line x1="680" y1="260" x2="1120" y2="260" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="284" font-weight="600">BKOI-GL / REACT-BKOI-GL</text><text x="1120" y="284" text-anchor="end" opacity="0.32">17 / 14 REL</text>
+    <line x1="680" y1="300" x2="1120" y2="300" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="324" font-weight="600">PI-NATIVE</text><text x="880" y="324" opacity="0.75">RUST TOOLS</text><text x="1120" y="324" text-anchor="end" opacity="0.32">FAIL-CLOSED</text>
+    <line x1="680" y1="340" x2="1120" y2="340" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="364" font-weight="600">STACK OVERFLOW</text><text x="880" y="364" opacity="0.75">539+ REP</text><text x="1120" y="364" text-anchor="end" opacity="0.32">27 ANSWERS</text>
+    <line x1="680" y1="380" x2="1120" y2="380" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+    <text x="680" y="404" font-weight="600">MEDIUM</text><text x="880" y="404" opacity="0.75">8 ARTICLES</text>
+    <line x1="680" y1="420" x2="1120" y2="420" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+  </g>
+
+  <!-- scan line -->
+  <rect x="680" y="140" width="440" height="1" fill="#FFFFFF" opacity="0">
+    <animate attributeName="y" values="140;420" keyTimes="0;1" calcMode="spline" keySplines="0.22 1 0.36 1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.35;0.35;0" keyTimes="0;0.08;0.92;1" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="80" y="448" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#FFFFFF" opacity="0.75">FIELD NOTES: MAP SDKS · REAL-TIME PIPELINES · AGENT HARNESSING · 2022 – PRESENT</text>
+</svg>

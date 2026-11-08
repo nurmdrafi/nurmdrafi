@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hero fancy motifs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root { color-scheme: dark; --acc:#FDD835; --bg:#0d1117; --s1:#181818; --s2:#1F1F1F; --s3:#272727; --line:#313131; --txt:#FFFFFF; --dim:#9B9B9B; --faint:#6E7681; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Geist','Manrope',system-ui,sans-serif; background:var(--bg); color:var(--txt); max-width:880px; margin:0 auto; padding:48px 32px 96px; }
+  .note { font-size:14px; line-height:20px; color:var(--dim); font-weight:500; border:1px solid var(--s3); background:var(--s1); border-radius:16px; padding:16px; margin-bottom:48px; }
+  .mono { font-family:'Geist Mono',monospace; }
+  h2 { font-size:20px; line-height:28px; font-weight:600; }
+  .opt { margin-bottom:64px; }
+  .opt > .label { display:flex; align-items:baseline; gap:12px; margin-bottom:16px; }
+  .opt > .label span { font-size:12px; line-height:16px; color:var(--faint); font-weight:500; }
+  .hero { background:#131209; border:1px solid var(--s3); border-radius:16px; overflow:hidden; position:relative; }
+  .grad { background:linear-gradient(90deg,#FFFFFF 45%,#9B9B9B); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .sub { font-size:16px; line-height:24px; font-weight:500; color:var(--dim); max-width:680px; text-wrap:pretty; }
+  .hcopy { max-width:680px; }
+  .btn { display:inline-flex; align-items:center; gap:8px; background:var(--acc); color:#131209; font-family:inherit; font-size:14px; line-height:20px; font-weight:600; padding:8px 12px; border:0; border-radius:8px; cursor:pointer; text-decoration:none; transition:transform 500ms cubic-bezier(0.22,1,0.36,1), background-color 300ms; }
+  .btn:hover { background:#FFDD55; transform:translateY(-2px); }
+  .btn:active { transform:scale(0.98); }
+  .btn:focus-visible { outline:2px solid var(--acc); outline-offset:2px; }
+  .stats { display:flex; flex-wrap:wrap; gap:8px 24px; }
+  .stats span { font-size:12px; line-height:16px; letter-spacing:0.06em; }
+  .o1 { opacity:0.75; } .o2 { opacity:0.5; } .o3 { opacity:0.32; } .o4 { opacity:0.18; }
+
+  /* A: cartography split */
+  .cart { display:grid; grid-template-columns:1.15fr 1fr; gap:32px; padding:48px; align-items:center; }
+  .cart h3 { font-size:48px; line-height:48px; }
+  .cart .stack { display:flex; flex-direction:column; gap:24px; }
+  .map { position:relative; background:#000000; border:1px solid var(--s3); border-radius:12px; height:300px; overflow:hidden; }
+  .map svg { position:absolute; inset:0; width:100%; height:100%; }
+  .map .scan { position:absolute; left:0; right:0; top:0; height:2px; background:rgba(253,216,53,0.5); animation:scan 7s cubic-bezier(0.22,1,0.36,1) infinite alternate; }
+  @keyframes scan { from { transform:translateY(12px); } to { transform:translateY(280px); } }
+  .ping { transform-origin:center; animation:ping 2.8s cubic-bezier(0.22,1,0.36,1) infinite; }
+  @keyframes ping { 0% { transform:scale(0.4); opacity:0.8; } 70% { transform:scale(2.4); opacity:0; } 100% { transform:scale(2.4); opacity:0; } }
+  .coord { position:absolute; right:12px; bottom:10px; font-family:'Geist Mono',monospace; font-size:12px; line-height:16px; color:var(--dim); }
+
+  /* B: barcode */
+  .bc { padding:64px 48px; display:flex; flex-direction:column; gap:32px; }
+  .bc h3 { font-size:60px; line-height:60px; }
+  .bcwrap { position:relative; border:1px solid var(--s3); background:#000000; border-radius:12px; padding:20px 16px 12px; overflow:hidden; }
+  .barcode { display:flex; align-items:flex-end; gap:0; height:44px; }
+  .barcode i { display:block; height:100%; background:#FFFFFF; opacity:0.75; }
+  .barcode i.y { background:var(--acc); opacity:1; }
+  .bclabel { display:flex; justify-content:space-between; margin-top:10px; font-family:'Geist Mono',monospace; font-size:12px; line-height:16px; color:var(--dim); letter-spacing:0.35em; }
+  .sweep { position:absolute; top:0; bottom:0; width:56px; background:linear-gradient(90deg, transparent, rgba(253,216,53,0.14), transparent); animation:sweep 4.6s cubic-bezier(0.22,1,0.36,1) infinite alternate; }
+  @keyframes sweep { from { transform:translateX(-60px); } to { transform:translateX(760px); } }
+
+  /* C: contour full bleed */
+  .contour { position:relative; min-height:300px; display:flex; flex-direction:column; justify-content:center; gap:24px; padding:64px 48px; }
+  .contour h3 { font-size:60px; line-height:60px; position:relative; }
+  .contour svg.bg { position:absolute; inset:0; width:100%; height:100%; }
+
+  /* D: telemetry */
+  .tele { padding:64px 48px; display:flex; flex-direction:column; gap:32px; }
+  .tele h3 { font-size:60px; line-height:60px; }
+  .telebox { border:1px solid var(--s3); background:#000000; border-radius:12px; padding:12px 16px 16px; position:relative; }
+  .telebox .row { display:flex; justify-content:space-between; font-family:'Geist Mono',monospace; font-size:12px; line-height:16px; color:var(--dim); margin-bottom:8px; }
+  .telebox .row b { color:var(--acc); font-weight:500; }
+  .wave { display:block; width:100%; height:72px; }
+  .caret { display:inline-block; width:8px; height:14px; background:var(--acc); vertical-align:-2px; animation:blink 1.1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity:0; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .map .scan, .sweep, .ping, .caret { animation:none; }
+    .ping { opacity:0; }
+    .btn { transition:background-color 300ms; transform:none; }
+  }
+  @media (max-width:720px) {
+    .cart { grid-template-columns:1fr; }
+    .cart h3 { font-size:36px; line-height:40px; }
+    .bc h3, .contour h3, .tele h3 { font-size:36px; line-height:40px; }
+  }
+</style>
+</head>
+<body>
+  <p class="note">Fancy motifs on the same hero copy: cartography (contours, graticule, crosshair, real Dhaka coordinates), a genuine Code 39 barcode encoding NURMDRAFI, a contour field backdrop, and a live telemetry strip. All still two ink, flat surfaces, one accent.</p>
+
+  <section class="opt">
+    <div class="label"><h2>Variant A · Cartography split hero</h2><span>maps as identity</span></div>
+    <div class="hero">
+      <div class="cart">
+        <div class="stack">
+          <h3 class="grad">Maps and live data interfaces for 1M+ users</h3>
+          <p class="sub">Lead Frontend Engineer at Barikoi. React, Next.js, WebGL maps with live tracking at 2,000+ updates per second.</p>
+          <div><a class="btn" href="https://nurmdrafi.vercel.app/">See the work → Portfolio</a></div>
+          <div class="stats mono"><span class="o1">1M+ USERS</span><span class="o2">2.8M OUTLETS</span><span class="o3">46,500 KM FIBER</span><span class="o4">2,000+ UPDATES/S</span></div>
+        </div>
+        <div class="map">
+          <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g stroke="#FFFFFF" fill="none" stroke-width="1">
+              <path opacity="0.18" d="M20 240 C60 150 120 110 150 110 C180 110 240 150 280 240" />
+              <path opacity="0.32" d="M35 245 C70 165 120 125 150 125 C180 125 230 165 265 245" />
+              <path opacity="0.5"  d="M50 250 C80 180 122 140 150 140 C178 140 220 180 250 250" />
+              <path opacity="0.75" d="M65 255 C92 195 124 155 150 155 C176 155 208 195 235 255" />
+              <path stroke="#FDD835" stroke-dasharray="4 5" opacity="0.9" d="M80 260 C103 210 127 170 150 170 C173 170 197 210 220 260" />
+            </g>
+            <g stroke="#FFFFFF" opacity="0.12" stroke-width="1">
+              <line x1="0" y1="75" x2="300" y2="75" /><line x1="0" y1="150" x2="300" y2="150" /><line x1="0" y1="225" x2="300" y2="225" />
+              <line x1="75" y1="0" x2="75" y2="300" /><line x1="150" y1="0" x2="150" y2="300" /><line x1="225" y1="0" x2="225" y2="300" />
+            </g>
+            <g transform="translate(150 170)">
+              <circle class="ping" r="10" fill="none" stroke="#FDD835" stroke-width="1.5" />
+              <line x1="-16" y1="0" x2="-6" y2="0" stroke="#FDD835" stroke-width="1.5" /><line x1="6" y1="0" x2="16" y2="0" stroke="#FDD835" stroke-width="1.5" />
+              <line x1="0" y1="-16" x2="0" y2="-6" stroke="#FDD835" stroke-width="1.5" /><line x1="0" y1="6" x2="0" y2="16" stroke="#FDD835" stroke-width="1.5" />
+              <circle r="2.5" fill="#FDD835" />
+            </g>
+            <text x="12" y="20" font-family="Geist Mono, monospace" font-size="10" fill="#9B9B9B" opacity="0.7">BNG 23.81N</text>
+          </svg>
+          <div class="scan"></div>
+          <div class="coord">23.8103° N · 90.4125° E</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="label"><h2>Variant B · Barcode identity strip</h2><span>Code 39, encodes NURMDRAFI</span></div>
+    <div class="hero">
+      <div class="bc">
+        <div class="hcopy">
+          <h3 class="grad">Maps and live data<br />interfaces for 1M+ users</h3>
+        </div>
+        <p class="sub">Lead Frontend Engineer at Barikoi. React, Next.js, WebGL maps with live tracking at 2,000+ updates per second.</p>
+        <div><a class="btn" href="https://nurmdrafi.vercel.app/">See the work → Portfolio</a></div>
+        <div class="bcwrap">
+          <div class="sweep"></div>
+          <div class="barcode" id="bc" aria-label="Code 39 barcode encoding NURMDRAFI"></div>
+          <div class="bclabel"><span>NURMDRAFI</span><span>FRONTEND · BD</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="label"><h2>Variant C · Contour field full bleed</h2><span>option 1 art upgraded</span></div>
+    <div class="hero">
+      <div class="contour">
+        <svg class="bg" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <g id="rings" stroke="#FFFFFF" fill="none" stroke-width="1"></g>
+        </svg>
+        <h3 class="grad">Maps and live data<br />interfaces for 1M+ users</h3>
+        <p class="sub">React, Next.js, WebGL. Live tracking at 2,000+ updates per second.</p>
+        <div class="stats mono"><span class="o1">1M+ USERS</span><span class="o2">2.8M OUTLETS</span><span class="o3">46,500 KM FIBER</span><span class="o4">2,000+ UPDATES/S</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="label"><h2>Variant D · Telemetry strip</h2><span>live waveform of the claim</span></div>
+    <div class="hero">
+      <div class="tele">
+        <h3 class="grad">Maps and live data<br />interfaces for 1M+ users</h3>
+        <p class="sub">Lead Frontend Engineer at Barikoi. React, Next.js, WebGL maps with live tracking at 2,000+ updates per second.</p>
+        <div class="telebox">
+          <div class="row"><span>ingest / outlet stream <span class="caret"></span></span><b id="rate">2,041 upd/s</b></div>
+          <svg class="wave" id="wave" viewBox="0 0 720 72" preserveAspectRatio="none" aria-hidden="true">
+            <g stroke="#FFFFFF" opacity="0.12" stroke-width="1">
+              <line x1="0" y1="18" x2="720" y2="18" /><line x1="0" y1="36" x2="720" y2="36" /><line x1="0" y1="54" x2="720" y2="54" />
+            </g>
+            <polyline id="pl" fill="none" stroke="#FDD835" stroke-width="1.6" points="0,36 720,36" />
+          </svg>
+        </div>
+        <div class="stats mono"><span class="o1">1M+ USERS</span><span class="o2">2.8M OUTLETS</span><span class="o3">46,500 KM FIBER</span><span class="o4">2,000+ UPDATES/S</span></div>
+      </div>
+    </div>
+  </section>
+
+<script>
+  // ---- Code 39: 9 elements per char, 1 = wide, alternating bar/space starting with bar
+  const C39 = { '0':'000110100','1':'100100001','2':'001100001','3':'101100000','4':'000110001','5':'100110000','6':'001110000','7':'000100101','8':'100100100','9':'001100100','A':'100001001','B':'001001001','C':'101001000','D':'000011001','E':'100011000','F':'001011000','G':'000001101','H':'100001100','I':'001001100','J':'000011100','K':'100000011','L':'001000011','M':'101000010','N':'000010011','O':'100010010','P':'001010010','Q':'000000111','R':'100000110','S':'001000110','T':'000010110','U':'110000001','V':'011000001','W':'111000000','X':'010010001','Y':'110010000','Z':'011010000','*':'010010100' };
+  const nw = 2, wdt = 5, gap = 3; // narrow, wide, inter char gap (px)
+  const bc = document.getElementById('bc');
+  const text = '*NURMDRAFI*'.split('');
+  text.forEach((ch, ci) => {
+    C39[ch].split('').forEach((bit, i) => {
+      const isBar = i % 2 === 0;
+      const w = (bit === '1' ? wdt : nw);
+      const d = document.createElement('i');
+      if (!isBar) { d.style.background = 'transparent'; }
+      else if (ch === '*' || (ci >= 4 && ci <= 6)) { d.classList.add('y'); } // yellow accents: stars + RAF
+      d.style.width = w + 'px';
+      d.style.marginRight = (isBar ? 0 : 0) + 'px';
+      bc.appendChild(d);
+      if (!isBar) { /* space width used as margin */ }
+      // spaces: render as transparent spacer
+      if (!isBar) { d.style.background = 'transparent'; }
+    });
+    const g = document.createElement('i'); g.style.background = 'transparent'; g.style.width = gap + 'px'; bc.appendChild(g);
+  });
+
+  // ---- contour rings, seeded jitter
+  const rings = document.getElementById('rings');
+  let seed = 42; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let k = 0; k < 7; k++) {
+    const base = 36 + k * 30; let d = 'M ' + (400 + base) + ' 150 ';
+    for (let a = 0; a <= 360; a += 30) {
+      const r = base + Math.sin(a * 0.05 + k) * 8 + (rnd() * 14 - 7);
+      const rad = a * Math.PI / 180;
+      const x = 400 + Math.cos(rad) * r * 1.25, y = 150 + Math.sin(rad) * r * 0.75;
+      d += 'L ' + x.toFixed(1) + ' ' + y.toFixed(1) + ' ';
+    }
+    d += 'Z';
+    const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    p.setAttribute('d', d);
+    p.setAttribute('opacity', k === 5 ? '0.9' : (0.75 - k * 0.09).toFixed(2));
+    if (k === 5) p.setAttribute('stroke', '#FDD835');
+    rings.appendChild(p);
+  }
+
+  // ---- telemetry waveform + rate ticker
+  const pl = document.getElementById('pl'), rate = document.getElementById('rate');
+  let pts = Array.from({ length: 145 }, () => 36); let v = 36;
+  setInterval(() => {
+    v += (Math.random() - 0.5) * 22;
+    v = Math.max(8, Math.min(64, v));
+    pts.push(v); if (pts.length > 145) pts.shift();
+    pl.setAttribute('points', pts.map((y, x) => x * 5 + ',' + y.toFixed(1)).join(' '));
+    if (Math.random() < 0.3) rate.textContent = (2001 + Math.floor(Math.random() * 90)).toLocaleString('en-US') + ' upd/s';
+  }, 90);
+
+  const rm = matchMedia('(prefers-reduced-motion: reduce)');
+  if (rm.matches) { pl.setAttribute('points', pts.map((y, x) => x * 5 + ',36').join(' ')); }
+</script>
+</body>
+</html>

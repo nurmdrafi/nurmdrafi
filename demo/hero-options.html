@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hero redesign options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root { color-scheme: dark; --acc:#FDD835; --bg:#0d1117; --s1:#181818; --s2:#1F1F1F; --s3:#272727; --line:#313131; --txt:#FFFFFF; --dim:#9B9B9B; --faint:#6E7681; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { background:var(--bg); }
+  body { font-family:'Geist','Manrope',system-ui,sans-serif; color:var(--txt); max-width:880px; margin:0 auto; padding:48px 32px 96px; }
+  .note { font-size:14px; line-height:20px; color:var(--dim); font-weight:500; border:1px solid var(--s3); background:var(--s1); border-radius:16px; padding:16px; margin-bottom:48px; }
+  .mono { font-family:'Geist Mono',monospace; }
+  h1,h2,h3,h4 { font-weight:600; text-wrap:balance; }
+  .opt { margin-bottom:64px; }
+  .opt > .label { display:flex; align-items:baseline; gap:12px; margin-bottom:16px; }
+  .opt > .label h2 { font-size:20px; line-height:28px; }
+  .opt > .label span { font-size:12px; line-height:16px; color:var(--faint); font-weight:500; }
+
+  /* ---------- shared hero pieces ---------- */
+  .hero { background:#131209; border:1px solid var(--s3); border-radius:16px; overflow:hidden; position:relative; }
+  .hcopy { max-width:680px; }
+  .grad { background:linear-gradient(90deg,#FFFFFF 45%,#9B9B9B); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .sub { font-size:16px; line-height:24px; font-weight:500; color:var(--dim); max-width:680px; text-wrap:pretty; }
+  .btn { display:inline-flex; align-items:center; gap:8px; background:var(--acc); color:#131209; font-family:inherit; font-size:14px; line-height:20px; font-weight:600; padding:8px 12px; border:0; border-radius:8px; cursor:pointer; text-decoration:none; transition:transform 500ms cubic-bezier(0.22,1,0.36,1), background-color 300ms; }
+  .btn:hover { background:#FFDD55; transform:translateY(-2px); }
+  .btn:active { transform:scale(0.98); }
+  .btn:focus-visible { outline:2px solid var(--acc); outline-offset:2px; }
+  .btn.ghost { background:transparent; color:var(--txt); border:1px solid var(--s3); }
+  .btn.ghost:hover { background:var(--s2); }
+  .stats { display:flex; flex-wrap:wrap; gap:8px 24px; }
+  .stats span { font-size:12px; line-height:16px; letter-spacing:0.06em; color:var(--txt); }
+  .stats .o1 { opacity:0.75; } .stats .o2 { opacity:0.5; } .stats .o3 { opacity:0.32; } .stats .o4 { opacity:0.18; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { font-size:12px; line-height:16px; font-weight:500; padding:6px 12px; border:1px solid var(--s3); background:var(--s1); border-radius:8px; color:var(--dim); }
+  .chip b { color:var(--txt); font-weight:500; }
+
+  /* dot field texture (flat, low opacity) */
+  .field { position:absolute; inset:0; background-image:radial-gradient(circle, rgba(253,216,53,0.07) 1px, transparent 1px); background-size:12px 12px; pointer-events:none; }
+
+  /* terminal panel art */
+  .term { background:#000000; border:1px solid var(--s3); border-radius:12px; overflow:hidden; position:relative; height:260px; }
+  .term .scan { position:absolute; left:0; right:0; top:0; height:2px; background:rgba(253,216,53,0.55); animation:scan 7s cubic-bezier(0.22,1,0.36,1) infinite alternate; }
+  @keyframes scan { from { transform:translateY(12px); } to { transform:translateY(240px); } }
+  .term pre { font-family:'Geist Mono',monospace; font-size:12px; line-height:20px; padding:16px; color:#FFFFFF; }
+  .term pre .l1 { opacity:0.75; } .term pre .l2 { opacity:0.32; } .term pre .l3 { opacity:0.18; }
+  .caret { display:inline-block; width:8px; height:14px; background:var(--acc); vertical-align:-2px; animation:blink 1.1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity:0; } }
+
+  /* ---------- option 1: text first ---------- */
+  .o1 { padding:64px 48px; display:flex; flex-direction:column; gap:24px; }
+  .o1 h3 { font-size:60px; line-height:60px; }
+
+  /* ---------- option 2: split ---------- */
+  .o2 { display:grid; grid-template-columns:1.2fr 1fr; gap:32px; padding:48px; align-items:center; }
+  .o2 h3 { font-size:48px; line-height:48px; }
+  .o2 .stack { display:flex; flex-direction:column; gap:24px; }
+
+  /* ---------- option 3: typed overlay ---------- */
+  .o3 { padding:64px 48px; display:flex; flex-direction:column; gap:32px; min-height:240px; }
+  .o3 .typed { font-family:'Geist Mono',monospace; font-size:20px; line-height:28px; font-weight:500; max-width:680px; }
+  .o3 .cursor { display:inline-block; width:10px; height:20px; background:var(--acc); vertical-align:-2px; margin-left:2px; animation:blink 1.1s steps(1) infinite; }
+
+  /* ---------- option 4: reveal + states ---------- */
+  .rv { opacity:0; transform:translateY(32px); transition:opacity 700ms cubic-bezier(0.22,1,0.36,1), transform 700ms cubic-bezier(0.22,1,0.36,1); }
+  .rv.on { opacity:1; transform:none; }
+  .o4 { padding:64px 48px; display:flex; flex-direction:column; gap:24px; }
+  .o4 h3 { font-size:60px; line-height:60px; }
+  .hint { font-size:12px; line-height:16px; color:var(--faint); font-weight:500; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .term .scan { animation:none; opacity:0.3; }
+    .caret, .o3 .cursor { animation:none; }
+    .rv { transform:none; transition:opacity 300ms; }
+    .btn { transition:background-color 300ms; transform:none; }
+  }
+  @media (max-width:720px) {
+    .o2 { grid-template-columns:1fr; }
+    .o1 h3, .o4 h3 { font-size:36px; line-height:40px; }
+    .o2 h3 { font-size:36px; line-height:40px; }
+  }
+</style>
+</head>
+<body>
+  <p class="note">Four hero directions, all built on the verified profile facts (1M+ Pickaboo users, 2.8M outlets, 46,500 km fiber, 2,000+ updates per second). Pick one; it becomes the banner SVG plus README markup. Canvas outside cards is GitHub's own background, which we do not control.</p>
+
+  <section class="opt">
+    <div class="label"><h2>Option 1 · Terminal headline, text first</h2><span>low effort</span></div>
+    <div class="hero">
+      <div class="field"></div>
+      <div class="o1">
+        <h3 class="grad">Maps and live data<br />interfaces for 1M+ users</h3>
+        <p class="sub">Lead Frontend Engineer at Barikoi. React, Next.js, and WebGL maps with live tracking at 2,000+ updates per second.</p>
+        <div><a class="btn" href="https://nurmdrafi.vercel.app/">See the work → Portfolio</a></div>
+        <div class="stats mono"><span class="o1">1M+ USERS</span><span class="o2">2.8M OUTLETS</span><span class="o3">46,500 KM FIBER</span><span class="o4">2,000+ UPDATES/S</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="label"><h2>Option 2 · Split hero, classic landing</h2><span>medium · recommended</span></div>
+    <div class="hero">
+      <div class="field"></div>
+      <div class="o2">
+        <div class="stack">
+          <h3 class="grad">Maps and live data interfaces for 1M+ users</h3>
+          <p class="sub">React, Next.js, WebGL. Live tracking at 2,000+ updates per second.</p>
+          <div><a class="btn" href="https://nurmdrafi.vercel.app/">See the work → Portfolio</a> <a class="btn ghost" href="https://github.com/nurmdrafi">Repositories</a></div>
+          <div class="stats mono"><span class="o1">1M+ USERS</span><span class="o2">2.8M OUTLETS</span><span class="o3">46,500 KM FIBER</span><span class="o4">2,000+ UPDATES/S</span></div>
+        </div>
+        <div class="term">
+          <div class="scan"></div>
+          <pre><span class="l1">$ bkoi stream --tiles dhaka</span>
+<span class="l1">▸ 2,847 outlets · 41 ms p95</span>
+<span class="l2">▸ ingest 2,041 updates/s</span>
+<span class="l2">▸ fiber 46,5xx km mapped</span>
+<span class="l3">▸ users 1,0xx,xxx served</span>
+<span class="l1">▸ status <b style="color:#FDD835">LIVE</b> <span class="caret"></span></span></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="label"><h2>Option 3 · Typed overlay on current art</h2><span>low effort</span></div>
+    <div class="hero">
+      <div class="field"></div>
+      <div class="o3">
+        <p class="typed" id="typed"><span class="cursor"></span></p>
+        <div class="chips">
+          <span class="chip"><b>1M+</b> users</span>
+          <span class="chip"><b>2.8M</b> outlets</span>
+          <span class="chip"><b>46,500 km</b> fiber</span>
+          <span class="chip"><b>2,000+</b> updates/s</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="label"><h2>Option 4 · Full motion compliance</h2><span>demo only · README keeps a static twin</span></div>
+    <div class="hero rv">
+      <div class="field"></div>
+      <div class="o4">
+        <h3 class="grad">Maps and live data<br />interfaces for 1M+ users</h3>
+        <p class="sub">Scroll away and back: this card reveals once, rises 32px on the 0.22, 1, 0.36, 1 curve, 700ms. Hover and focus the button to see the full state set.</p>
+        <div><a class="btn" href="https://nurmdrafi.vercel.app/">See the work → Portfolio</a></div>
+        <p class="hint">Reveal once per session, never replays. Reduced motion swaps movement for opacity only.</p>
+      </div>
+    </div>
+  </section>
+
+<script>
+  // typed line for option 3
+  const line = "Lead Frontend Engineer at Barikoi — maps, React, WebGL, 2,000+ updates per second.";
+  const el = document.getElementById('typed');
+  const cur = el.querySelector('.cursor');
+  let i = 0;
+  (function tick(){
+    if (i <= line.length) {
+      el.textContent = line.slice(0, i);
+      el.appendChild(cur);
+      i++;
+      setTimeout(tick, 34 + Math.random()*46);
+    } else { setTimeout(()=>{ i = 0; tick(); }, 4200); }
+  })();
+
+  // option 4 reveal, once
+  const io = new IntersectionObserver((es)=>{
+    es.forEach(e=>{ if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, { threshold: 0.25 });
+  document.querySelectorAll('.rv').forEach(n=>io.observe(n));
+</script>
+</body>
+</html>

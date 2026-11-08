@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Icon options — withicons-anime vs simple-icons</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 24px 80px; background: #ffffff; color: #1f2328;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    font-size: 16px; line-height: 1.6;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  h1 { font-size: 24px; }
+  h2 { font-size: 22px; border-bottom: 1px solid #d1d9e0; padding-bottom: 8px; margin: 48px 0 8px; }
+  h3 { font-size: 16px; margin: 26px 0 6px; }
+  .opt { font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: #59636e; margin-top: 40px; }
+  .deputy { font-size: 14px; color: #59636e; margin: 6px 0 18px; }
+  .glyph-h { font-size: 20px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid #d1d9e0; padding-bottom: 8px; margin: 40px 0 8px; }
+  code, .cap {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .cap { display: block; font-size: 11px; letter-spacing: 0.4px; color: #59636e; margin: 4px 0 18px; }
+  .devs img { margin-right: 4px; vertical-align: middle; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 14px 0; }
+  .cell {
+    border: 1px solid #d1d9e0; border-radius: 6px; padding: 12px 10px; text-align: center;
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+  }
+  .cell span { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; color: #59636e; }
+  .note {
+    padding: 12px 16px; border-left: 2px solid #d1d9e0; background: #f6f8fa;
+    font-size: 13.5px; color: #59636e; margin: 20px 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Icon options — preview</h1>
+  <div class="note">
+    Option 1 shows the current state (simple-icons brand icons, official colors).
+    Option 2 keeps those brand rows but adds withicons-anime glyphs beside section headings.
+    Option 3 is a sampler of withicons-anime so you can pick individual glyphs by name for any use.
+  </div>
+
+  <div class="opt">Option 1 — simple-icons brand rows (current state)</div>
+  <h2>Equipment</h2>
+  <h3>Frontend</h3>
+  <p class="devs">
+    <img height="22" src="https://api.iconify.design/simple-icons/react.svg?color=%2361DAFB" alt="React">
+    <img height="22" src="https://api.iconify.design/simple-icons/typescript.svg?color=%233178C6" alt="TypeScript">
+    <img height="22" src="https://api.iconify.design/simple-icons/javascript.svg?color=%23F7DF1E" alt="JavaScript">
+    <img height="22" src="https://api.iconify.design/simple-icons/redux.svg?color=%23764ABC" alt="Redux">
+    <img height="22" src="https://api.iconify.design/simple-icons/html5.svg?color=%23E34F26" alt="HTML5">
+    <img height="22" src="https://api.iconify.design/simple-icons/css.svg?color=%23663399" alt="CSS">
+    <img height="22" src="https://api.iconify.design/simple-icons/tailwindcss.svg?color=%2306B6D4" alt="Tailwind">
+    <img height="22" src="https://api.iconify.design/simple-icons/mui.svg?color=%23007FFF" alt="MUI">
+  </p>
+  <span class="cap">REACT · NEXT.JS · TYPESCRIPT · JAVASCRIPT ES6+ · REDUX TOOLKIT · HTML5 · CSS3 · TAILWIND CSS · MATERIAL UI</span>
+  <h3>Geospatial &amp; Visualization</h3>
+  <p class="devs">
+    <img height="22" src="https://api.iconify.design/simple-icons/webgl.svg?color=%23990000" alt="WebGL">
+    <img height="22" src="https://api.iconify.design/simple-icons/mapbox.svg?color=%238B8B8B" alt="Mapbox">
+    <img height="22" src="https://api.iconify.design/simple-icons/threedotjs.svg?color=%238B8B8B" alt="Three.js">
+  </p>
+  <h3>Cloud Platforms</h3>
+  <p class="devs">
+    <img height="22" src="https://api.iconify.design/simple-icons/googlecloud.svg?color=%234285F4" alt="GCP">
+    <img height="22" src="https://api.iconify.design/simple-icons/microsoftazure.svg?color=%230078D4" alt="Azure">
+    <img height="22" src="https://api.iconify.design/simple-icons/cloudflare.svg?color=%23F38020" alt="Cloudflare">
+    <img height="22" src="https://api.iconify.design/simple-icons/firebase.svg?color=%23DD2C00" alt="Firebase">
+  </p>
+  <div class="deputy">(all 10 groups, 31 icons, live in README + demo now — this is a sample)</div>
+
+  <div class="opt">Option 2 — withicons-anime heading glyphs + brand rows unchanged</div>
+  <div class="glyph-h"><img height="22" src="https://api.iconify.design/withicons-anime/wrench.svg?color=%23FDD835" alt=""> Equipment</div>
+  <p class="devs">
+    <img height="22" src="https://api.iconify.design/simple-icons/react.svg?color=%2361DAFB" alt="React">
+    <img height="22" src="https://api.iconify.design/simple-icons/typescript.svg?color=%233178C6" alt="TypeScript">
+    <img height="22" src="https://api.iconify.design/simple-icons/javascript.svg?color=%23F7DF1E" alt="JavaScript">
+  </p>
+  <div class="glyph-h"><img height="22" src="https://api.iconify.design/withicons-anime/package.svg?color=%23FDD835" alt=""> Open source · depot</div>
+  <div class="glyph-h"><img height="22" src="https://api.iconify.design/withicons-anime/radio.svg?color=%23FDD835" alt=""> Transmissions</div>
+  <div class="glyph-h"><img height="22" src="https://api.iconify.design/withicons-anime/satellite-dish.svg?color=%23FDD835" alt=""> Signal</div>
+  <div class="deputy">Glyphs shown in the profile accent #FDD835; brand icon rows stay simple-icons (Option 1 look).</div>
+
+  <div class="opt">Option 3 — withicons-anime sampler (pick any names)</div>
+  <h2>Sampler</h2>
+  <div class="grid">
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/accessibility.svg" alt=""><span>accessibility</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/activity.svg" alt=""><span>activity</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/airplay.svg" alt=""><span>airplay</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/anchor.svg" alt=""><span>anchor</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/angry.svg" alt=""><span>angry</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/api.svg" alt=""><span>api</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/apple.svg" alt=""><span>apple</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/bug.svg" alt=""><span>bug</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/compass.svg" alt=""><span>compass</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/cpu.svg" alt=""><span>cpu</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/database.svg" alt=""><span>database</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/flame.svg" alt=""><span>flame</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/gauge.svg" alt=""><span>gauge</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/git-branch.svg" alt=""><span>git-branch</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/git-fork.svg" alt=""><span>git-fork</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/git-merge.svg" alt=""><span>git-merge</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/git-pull-request.svg" alt=""><span>git-pull-request</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/layers.svg" alt=""><span>layers</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/map.svg" alt=""><span>map</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/radar.svg" alt=""><span>radar</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/rocket.svg" alt=""><span>rocket</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/scan.svg" alt=""><span>scan</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/shield-check.svg" alt=""><span>shield-check</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/square-terminal.svg" alt=""><span>square-terminal</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/star.svg" alt=""><span>star</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/telescope.svg" alt=""><span>telescope</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/test-tube.svg" alt=""><span>test-tube</span></div>
+    <div class="cell"><img height="22" src="https://api.iconify.design/withicons-anime/zap.svg" alt=""><span>zap</span></div>
+  </div>
+  <div class="deputy">Full set: 1000 glyphs — <a href="https://icon-sets.iconify.design/withicons-anime/">icon-sets.iconify.design/withicons-anime</a>. Any glyph can be tinted with <code>?color=%23hex</code>.</div>
+
+</div>
+</body>
+</html>
