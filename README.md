@@ -150,6 +150,7 @@
 	</g>
 </svg>
 
+
 </p>
 
 <sub><code>JEST · VITEST · REACT TESTING LIBRARY · SONARQUBE · PLAYWRIGHT · K6 · POSTMAN · E2E TESTING · SENTRY · ACCESSIBILITY (A11Y) · CODE REVIEWS</code></sub>
@@ -165,11 +166,7 @@
 	<path d="M0 0h24v24H0z" fill="none" />
 	<path fill="#1a1f71" d="M9.112 8.262L5.97 15.758H3.92L2.374 9.775c-.094-.368-.175-.503-.461-.658C1.447 8.864.677 8.627 0 8.479l.046-.217h3.3a.904.904 0 0 1 .894.764l.817 4.338l2.018-5.102zm8.033 5.049c.008-1.979-2.736-2.088-2.717-2.972c.006-.269.262-.555.822-.628a3.66 3.66 0 0 1 1.913.336l.34-1.59a5.2 5.2 0 0 0-1.814-.333c-1.917 0-3.266 1.02-3.278 2.479c-.012 1.079.963 1.68 1.698 2.04c.756.367 1.01.603 1.006.931c-.005.504-.602.725-1.16.734c-.975.015-1.54-.263-1.992-.473l-.351 1.642c.453.208 1.289.39 2.156.398c2.037 0 3.37-1.006 3.377-2.564m5.061 2.447H24l-1.565-7.496h-1.656a.88.88 0 0 0-.826.55l-2.909 6.946h2.036l.405-1.12h2.488zm-2.163-2.656l1.02-2.815l.588 2.815zm-8.16-4.84l-1.603 7.496H8.34l1.605-7.496z" />
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512">
-    <path d="M0 0h512v512H0z" fill="none" />
-    <path fill="#fff" d="M512 512H0V0h512v256z" />
-    <path fill="#006fcf" d="M512 512v-81.1h-61.8l-31.8-35.2l-32 35.2H182.8V267h-65.7l81.5-184.5h78.6l28.1 63.2V82.5h97.3l16.9 47.6l17-47.6H512V0H0v512zm-51.4-101.6H512l-67.9-72.1l67.9-71.2h-50.5l-42 45.9l-41.6-45.9h-51.4l67.5 71.6l-67.5 71.6h49.9l42.2-46.3zm12.1-72l39.3 41.9v-83.4zm-229 38.8v-22.3h80.9v-32.3h-80.9v-22.3h82.9v-33.2h-122v143.3h122v-33.2zm229.6-130.9H512V103h-60.2l-32.1 89.2l-32-89.2h-61.2v143.3h38.7V146L402 246.3h34.4l36.8-100.5v100.5zm-190.8 0h44L263.3 103h-50.4l-63.3 143.3h43l11.9-28.7h65.9zM257 185.5h-38.9l19.4-46.9z" />
-  </svg>
+  <img height="26" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/amex-brandmark.svg" alt="American Express" />
 </p>
 
 <sub><code>STRIPE · BKASH · NAGAD · AAMARPAY · SSLCOMMERZ · EMI / CARDLESS EMI / COD · MULTI-STEP CHECKOUT</code></sub>
