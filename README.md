@@ -1,4 +1,4 @@
-[<img alt="Nur Mohamod Rafi. Lead Frontend Engineer for live maps at scale. React, Next.js, MapLibre, WebGL. 1M+ users, 2.8M outlets, 2,000+ updates per second. Open to remote roles worldwide. Code 39 barcode NURMDRAFI. Links to portfolio." src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/hero-dark.svg">](https://nurmdrafi.vercel.app/)
+[<img alt="Nur Mohamod Rafi. Lead Frontend Engineer. Portfolio: nurmdrafi.vercel.app" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/hero.svg">](https://nurmdrafi.vercel.app/)
 
 
 ## <img height="20" src="https://api.iconify.design/withicons-anime/activity.svg?color=%23FDD835" alt="" /> Service record
@@ -165,9 +165,17 @@
 **AI-Assisted Engineering**
 
 <p>
-  <img height="26" src="https://api.iconify.design/mdi/pi.svg?color=%23ffffff" alt="Pi coding agent" />
-  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/claude-ai.svg" alt="Claude Code" />
-  <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/anthropic.svg" alt="Anthropic" />
+  <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256" alt="Pi Coding Agent">
+	<path fill="#f09082" d="M0 0h191.999v127.997h-64.002V64.001H0z"></path>
+	<path fill="#4d9abf" d="M0 64.001h64.001v63.996h63.996v64.002H64.001V256H0z"></path>
+	<path fill="#f1be58" d="M191.999 127.997H256V256h-64.001z"></path>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 161" alt="Claude Code">
+	<path fill="#d97757" d="M223.979 63.79H256v33.087h-32v32.299h-15.861v31.157H192v-31.157h-15.861v31.157H160v-31.157H96v31.157H79.872v-31.157H64v31.157H47.861v-31.157H32v-32.31H0V63.8h32V.333h191.979zM64 63.79h15.872V33.42H64zm112.107 0H192V33.42h-15.893z"></path>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24" alt="Anthropic">
+  <path fill="currentColor" d="M17.304 3.541h-3.672l6.696 16.918H24Zm-10.608 0L0 20.459h3.744l1.37-3.553h7.005l1.369 3.553h3.744L10.536 3.541Zm-.371 10.223L8.616 7.82l2.291 5.945Z"></path>
+  </svg>
   <img height="26" src="https://api.iconify.design/logos/openai.svg?color=%23ffffff" alt="OpenAI" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/chatgpt.svg" alt="ChatGPT" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/deepseek.svg" alt="DeepSeek" />

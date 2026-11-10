@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="448" viewBox="0 0 830 448" role="img" aria-label="Nur Mohamod Rafi. Lead Frontend Engineer for live maps at scale. React, Next.js, MapLibre, WebGL. 1M+ users, 2.8M outlets, 2,000+ updates per second. Open to remote roles worldwide. Code 39 barcode NURMDRAFI.">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="448" viewBox="0 0 830 448" role="img" aria-label="Nur Mohamod Rafi. Lead Frontend Engineer. Links to portfolio.">
   <defs>
     <linearGradient id="hg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#9B9B9B"/>
@@ -9,10 +9,8 @@
     <clipPath id="bcclip"><rect x="41" y="321" width="748" height="86"/></clipPath>
   </defs>
   <rect x="0.5" y="0.5" width="829" height="447" rx="16" fill="#11272A" stroke="#272727"/>
-  <text x="40" y="96" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="60" font-weight="600" fill="url(#hg)">Lead Frontend Engineer</text>
-  <text x="40" y="156" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="60" font-weight="600" fill="url(#hg)">for live maps at scale</text>
-  <text x="40" y="200" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="500" fill="#9B9B9B">React, Next.js, MapLibre, WebGL. 1M+ users, 2.8M outlets,</text>
-  <text x="40" y="226" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="500" fill="#9B9B9B">live data at 2,000+ updates per second. Open to remote roles worldwide.</text>
+  <text x="40" y="96" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="60" font-weight="600" fill="url(#hg)">Nur Mohamod Rafi</text>
+  <text x="40" y="156" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="60" font-weight="600" fill="url(#hg)">Lead Frontend Engineer</text>
   <a href="https://nurmdrafi.vercel.app/" target="_blank" rel="noopener" style="cursor:pointer">
     <rect x="40" y="256" width="216" height="36" rx="8" fill="#35F1DA"/>
     <text x="148" y="279" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="600" fill="#131209">See the work → Portfolio</text>
