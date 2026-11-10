@@ -4,7 +4,9 @@
 ## <img height="20" src="https://api.iconify.design/withicons-anime/activity.svg?color=%23FDD835" alt="" /> Service record
 
 `LEAD FRONTEND ENGINEER` — Barikoi Technologies, Dhaka · `MAR 2026 – PRESENT`
+
 `SOFTWARE ENGINEER - FRONTEND` — Barikoi Technologies, Dhaka · `NOV 2022 – FEB 2026`
+
 `EDUCATION` — BBA in Finance · Mohammadpur Central University College · `JUL 2014 – DEC 2019`
 
 ## <img height="20" src="https://api.iconify.design/withicons-anime/map.svg?color=%23FDD835" alt="" /> Field log · selected work
