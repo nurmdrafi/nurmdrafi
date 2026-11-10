@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-label="Nur Mohamod Rafi. Lead Software Engineer, Frontend at Barikoi Maps. Sector ring with five domains: delivery, banking, retail, logistics, e-commerce.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C2A2E"/><stop offset="0.55" stop-color="#081B1F"/><stop offset="1" stop-color="#06141A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.9" cy="0.05" r="0.55">
+      <stop offset="0" stop-color="#35F1DA" stop-opacity="0.2"/><stop offset="1" stop-color="#35F1DA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D9FBF6"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35F1DA"/><stop offset="1" stop-color="#35F1DA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#glow)"/>
+
+  <!-- sector ring: 5 arcs of 60 deg with 12 deg gaps, r=100, center (1350,198) -->
+  <g fill="none" stroke="#35F1DA" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <path d="M1350 98 A100 100 0 0 1 1436.6 148" transform="rotate(-84 1350 198)"/>
+    <path d="M1350 98 A100 100 0 0 1 1436.6 148" transform="rotate(-12 1350 198)"/>
+    <path d="M1350 98 A100 100 0 0 1 1436.6 148" transform="rotate(60 1350 198)"/>
+    <path d="M1350 98 A100 100 0 0 1 1436.6 148" transform="rotate(132 1350 198)"/>
+    <path d="M1350 98 A100 100 0 0 1 1436.6 148" transform="rotate(204 1350 198)"/>
+  </g>
+  <circle cx="1350" cy="198" r="100" fill="none" stroke="#35F1DA" stroke-width="1" opacity="0.15"/>
+  <circle cx="1350" cy="198" r="70" fill="none" stroke="#35F1DA" stroke-width="1" opacity="0.15"/>
+
+  <!-- rotating sweep -->
+  <g>
+    <line x1="1350" y1="198" x2="1350" y2="98" stroke="#35F1DA" stroke-width="1.5" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0 1350 198" to="360 1350 198" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1350" cy="98" r="4" fill="#35F1DA">
+      <animateTransform attributeName="transform" type="rotate" from="0 1350 198" to="360 1350 198" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <circle cx="1350" cy="198" r="7" fill="#35F1DA"/>
+  <circle cx="1350" cy="198" r="16" fill="#35F1DA" opacity="0.14"/>
+
+  <!-- domain labels around the ring -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#8FB8B4">
+    <text x="1350" y="70" text-anchor="middle" transform="rotate(-30 1350 130)">DELIVERY</text>
+    <text x="1498" y="132" text-anchor="start">BANKING</text>
+    <text x="1498" y="280" text-anchor="start">RETAIL</text>
+    <text x="1350" y="332" text-anchor="middle">LOGISTICS</text>
+    <text x="1202" y="132" text-anchor="end">E-COM</text>
+  </g>
+
+  <!-- name block -->
+  <rect x="520" y="104" width="4" height="62" rx="2" fill="#35F1DA"/>
+  <text x="544" y="158" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="62" font-weight="700" letter-spacing="-1" fill="url(#name)">Nur Mohamod Rafi</text>
+  <text x="544" y="204" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="26" font-weight="500" fill="#CFEDE8">Lead Software Engineer – Frontend <tspan fill="#35F1DA" font-weight="600">@ Barikoi Maps</tspan></text>
+  <rect x="544" y="228" width="560" height="1.5" fill="url(#rule)"/>
+  <text x="544" y="266" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="16" font-weight="500" letter-spacing="0.6" fill="#8FB8B4">Geospatial  ·  Real-Time Tracking  ·  SDK  ·  AI Engineering  ·  DevOps</text>
+  <text x="544" y="298" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="16" font-weight="500" letter-spacing="0.6" fill="#5FA9A2">React  ·  TypeScript  ·  Next.js  ·  MapLibre  ·  deck.gl</text>
+</svg>

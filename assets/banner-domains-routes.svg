@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-label="Nur Mohamod Rafi. Lead Software Engineer, Frontend at Barikoi Maps. Five domain routes: delivery, banking, retail, logistics, e-commerce.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C2A2E"/><stop offset="0.55" stop-color="#081B1F"/><stop offset="1" stop-color="#06141A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.9" cy="0.05" r="0.55">
+      <stop offset="0" stop-color="#35F1DA" stop-opacity="0.2"/><stop offset="1" stop-color="#35F1DA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D9FBF6"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35F1DA"/><stop offset="1" stop-color="#35F1DA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#35F1DA" stroke-width="1">
+    <path d="M274.2 290.0 L275.1 291.5 L275.7 293.0 L275.7 294.5 L275.3 296.0 L274.4 297.4 L273.1 298.7 L271.4 299.9 L269.6 300.9 L267.6 301.9 L265.6 302.7 L263.6 303.5 L261.8 304.3 L260.1 305.1 L258.5 305.9 L257.0 306.8 L255.6 307.6 L254.2 308.5 L252.7 309.4 L251.2 310.2 L249.5 311.0 L247.8 311.6 L245.9 312.2 L244.0 312.5 L241.9 312.8 L239.9 312.9 L237.9 313.0 L235.9 313.0 L233.9 312.9 L231.9 312.9 L230.0 312.9 L228.1 312.9 L226.1 313.0 L224.1 313.1 L222.1 313.1 L220.0 313.2 L217.9 313.1 L215.8 313.0 L213.6 312.8 L211.5 312.5 L209.5 312.0 L207.5 311.5 L205.5 310.9 L203.5 310.3 L201.6 309.6 L199.7 308.8 L197.8 308.0 L196.0 307.1 L194.2 306.1 L192.6 305.0 L191.2 303.9 L190.1 302.6 L189.3 301.2 L188.8 299.8 L188.7 298.3 L189.0 296.8 L189.7 295.3 L190.6 293.9 L191.7 292.5 L193.0 291.2 L194.2 290.0 L195.2 288.9 L196.1 287.8 L196.7 286.7 L197.0 285.7 L197.1 284.5 L197.0 283.4 L196.8 282.1 L196.5 280.8 L196.3 279.4 L196.3 277.9 L196.5 276.5 L197.1 275.2 L197.9 273.9 L199.1 272.7 L200.5 271.7 L202.1 270.8 L203.9 270.0 L205.7 269.3 L207.6 268.6 L209.5 268.0 L211.5 267.4 L213.4 266.8 L215.3 266.2 L217.2 265.6 L219.2 265.0 L221.2 264.4 L223.3 264.0 L225.5 263.6 L227.7 263.4 L230.0 263.3 L232.2 263.4 L234.5 263.7 L236.6 264.1 L238.7 264.6 L240.7 265.2 L242.6 265.9 L244.4 266.7 L246.2 267.5 L247.9 268.3 L249.5 269.1 L251.0 269.9 L252.5 270.8 L253.8 271.7 L255.1 272.7 L256.2 273.7 L257.2 274.8 L258.1 275.9 L258.9 277.0 L259.7 278.0 L260.5 279.1 L261.4 280.1 L262.3 281.1 L263.5 282.0 L264.8 283.0 L266.3 284.0 L267.9 285.0 L269.6 286.1 L271.3 287.3 L272.9 288.6 L274.2 290.0Z" opacity="0.200"/>
+    <path d="M321.3 290.0 L323.1 293.0 L323.9 296.1 L323.8 299.2 L322.7 302.2 L320.7 305.1 L317.8 307.7 L314.4 310.1 L310.5 312.2 L306.4 314.1 L302.3 315.9 L298.3 317.5 L294.6 319.1 L291.3 320.8 L288.1 322.5 L285.2 324.2 L282.4 326.1 L279.6 328.0 L276.6 329.8 L273.5 331.5 L270.1 333.1 L266.5 334.4 L262.6 335.4 L258.6 336.2 L254.5 336.7 L250.3 336.9 L246.1 337.0 L242.0 337.0 L238.0 336.9 L234.0 336.9 L230.0 336.9 L226.0 337.0 L222.0 337.2 L217.9 337.4 L213.7 337.5 L209.4 337.6 L205.1 337.6 L200.7 337.4 L196.3 337.0 L191.9 336.3 L187.6 335.5 L183.4 334.5 L179.3 333.2 L175.3 331.9 L171.3 330.4 L167.4 328.8 L163.7 327.0 L160.0 325.1 L156.6 323.1 L153.4 320.8 L150.7 318.4 L148.5 315.7 L147.0 312.9 L146.2 309.9 L146.2 306.9 L147.0 303.8 L148.4 300.8 L150.3 297.8 L152.6 295.0 L155.0 292.4 L157.3 290.0 L159.3 287.7 L160.8 285.5 L161.9 283.3 L162.3 281.1 L162.3 278.7 L161.9 276.3 L161.2 273.6 L160.6 270.9 L160.2 268.0 L160.2 265.0 L160.8 262.1 L162.0 259.4 L163.8 256.8 L166.3 254.4 L169.2 252.3 L172.7 250.5 L176.4 248.9 L180.2 247.5 L184.2 246.2 L188.1 245.0 L192.0 243.8 L195.9 242.6 L199.8 241.3 L203.8 240.0 L207.8 238.7 L212.0 237.6 L216.3 236.6 L220.8 235.8 L225.4 235.3 L230.0 235.2 L234.6 235.5 L239.1 236.0 L243.6 236.9 L247.8 238.1 L251.9 239.4 L255.7 240.9 L259.4 242.4 L263.0 244.1 L266.4 245.7 L269.6 247.4 L272.8 249.2 L275.7 251.0 L278.5 252.9 L281.1 254.8 L283.4 256.9 L285.5 259.0 L287.4 261.2 L289.2 263.3 L291.0 265.5 L292.7 267.5 L294.7 269.6 L296.8 271.6 L299.3 273.5 L302.2 275.5 L305.4 277.5 L308.8 279.6 L312.3 281.9 L315.7 284.4 L318.7 287.1 L321.3 290.0Z" opacity="0.188"/>
+  </g>
+
+  <!-- hub -->
+  <circle cx="1160" cy="200" r="16" fill="#35F1DA" opacity="0.14"/>
+  <circle cx="1160" cy="200" r="6" fill="#35F1DA"/>
+
+  <!-- five domain routes -->
+  <g fill="none" stroke="#35F1DA" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 8" opacity="0.75">
+    <path id="r-delivery"  d="M1170 194 C1250 150 1320 120 1420 92"/>
+    <path id="r-banking"   d="M1174 208 C1270 220 1350 230 1470 216"/>
+    <path id="r-retail"    d="M1168 214 C1240 270 1300 300 1400 318"/>
+    <path id="r-logistics" d="M1166 188 C1250 120 1330 70 1450 44"/>
+    <path id="r-ecom"      d="M1172 202 C1280 250 1380 280 1520 290"/>
+  </g>
+
+  <!-- endpoints -->
+  <g fill="#35F1DA">
+    <circle cx="1420" cy="92" r="4"/><circle cx="1470" cy="216" r="4"/><circle cx="1400" cy="318" r="4"/><circle cx="1450" cy="44" r="4"/><circle cx="1520" cy="290" r="4"/>
+  </g>
+
+  <!-- live markers, staggered -->
+  <g fill="#35F1DA">
+    <circle r="3.5"><animateMotion dur="7.5s" begin="0s" repeatCount="indefinite" path="M1170 194 C1250 150 1320 120 1420 92"/></circle>
+    <circle r="3.5"><animateMotion dur="7.5s" begin="1.5s" repeatCount="indefinite" path="M1174 208 C1270 220 1350 230 1470 216"/></circle>
+    <circle r="3.5"><animateMotion dur="7.5s" begin="3s" repeatCount="indefinite" path="M1168 214 C1240 270 1300 300 1400 318"/></circle>
+    <circle r="3.5"><animateMotion dur="7.5s" begin="4.5s" repeatCount="indefinite" path="M1166 188 C1250 120 1330 70 1450 44"/></circle>
+    <circle r="3.5"><animateMotion dur="7.5s" begin="6s" repeatCount="indefinite" path="M1172 202 C1280 250 1380 280 1520 290"/></circle>
+  </g>
+
+  <!-- domain labels -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#8FB8B4">
+    <text x="1436" y="88">DELIVERY</text>
+    <text x="1486" y="212">BANKING</text>
+    <text x="1416" y="332">RETAIL</text>
+    <text x="1466" y="40">LOGISTICS</text>
+    <text x="1444" y="312" text-anchor="start">E-COM</text>
+  </g>
+
+  <!-- name block -->
+  <rect x="520" y="104" width="4" height="62" rx="2" fill="#35F1DA"/>
+  <text x="544" y="158" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="62" font-weight="700" letter-spacing="-1" fill="url(#name)">Nur Mohamod Rafi</text>
+  <text x="544" y="204" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="26" font-weight="500" fill="#CFEDE8">Lead Software Engineer – Frontend <tspan fill="#35F1DA" font-weight="600">@ Barikoi Maps</tspan></text>
+  <rect x="544" y="228" width="560" height="1.5" fill="url(#rule)"/>
+  <text x="544" y="266" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="16" font-weight="500" letter-spacing="0.6" fill="#8FB8B4">Geospatial  ·  Real-Time Tracking  ·  SDK  ·  AI Engineering  ·  DevOps</text>
+  <text x="544" y="298" font-family="Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="16" font-weight="500" letter-spacing="0.6" fill="#5FA9A2">React  ·  TypeScript  ·  Next.js  ·  MapLibre  ·  deck.gl</text>
+</svg>
