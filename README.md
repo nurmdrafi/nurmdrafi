@@ -13,13 +13,13 @@
 
 | Record | Scale | Mechanism |
 |:--|:--|:--|
-| `PICKABOO` | `1M+ MOBILE · 500K+ REGISTERED · 10K+ TX/DAY` | `NEXT.JS APP ROUTER REBUILD FROM BLANK REPO · SSR/ISR + JSON-LD + SITEMAP SEO (30% ORGANIC GROWTH) · 10+ PAYMENT METHODS INCL. EMI/COD IN MULTI-STEP CHECKOUT · MAP-BASED ADDRESS SELECTION · RTK QUERY OPTIMISTIC UPDATES (40% FEWER API CALLS) · NEXTAUTH SOCIAL + OTP LOGIN` |
-| `AKG SALES LIVE` | `2.8M OUTLETS · 4,500+ REPS · ~10K GPX USERS · 2,000+ UPDATES/S` | `LIVE SALES MAP · 25% FEWER ROUTE DEVIATIONS · MQTT/PUSHER STREAMING · SERVER-SIDE PROXY ROUTES + JWT + RBAC · BATCHED MQTT UPDATES · MEMOIZED COMPONENTS · RTK QUERY CACHING` |
-| `VERIFY` | `13+ FINANCIAL INSTITUTIONS` | `CPV WORKFLOW DASHBOARD · VERSIONED API HANDSHAKE · MULTI-STATE WORKFLOW (PENDING / APPROVED / REJECTED) · MODULAR REACT + TS ARCHITECTURE · BANGLADESH FINTECH AWARD 2023` |
-| `GEO-FIBER` | `46,500+ KM FIBER · 100MB UPLOADS` | `DECK.GL ICON/PATH/TEXT LAYERS · MULTER + UNZIPPER + TOGEOJSON KMZ/KML PIPELINE · PUSHER LIVE PROCESSING · SHORTEST-ROUTE + SPOF ANALYSIS · SENTRY + PM2` |
-| `JTI` | `~6K LIVE USERS` | `LIVE ROUTES, OUTLETS, FIELD FORCE OVER MQTT + DECK.GL · TLP + PERIOD-COMPARISON VIEWS · ANT DESIGN CHARTS · TURF.JS GEO-REPORTING · NUQS URL-DRIVEN FILTERS` |
-| `SALESKOI` | `RETAIL SAAS PLATFORM` | `NEXT.JS + REDUX TOOLKIT + TANSTACK TABLE · MQTT LIVE UPDATES · OUTLETS, DEALERS, HIERARCHY, ATTENDANCE, TA/DA CLAIMS · REACT-BKOI-GL MAP VIEW · COMLINK WORKERS + IDB CACHE + CMDK · PROD / STAGING / REVIEW CI` |
-| `DROPX` | `LOGISTICS OPERATIONS` | `MERCHANT + ADMIN PANELS · DECK.GL FLEET TRACKING OVER MQTT AND PUSHER · RIDERS, MERCHANTS, AGENTS + DELIVERY RATES + TICKETING · WKT POLYGON ZONE EDITING · BULK EXCEL ORDERS · EXCEL / PDF EXPORTS` |
+| `PICKABOO` | `1M+ MOBILE · 500K+ REGISTERED · 10K+ TX/DAY` | Ground-up **Next.js App Router** rebuild — SSR/ISR, JSON-LD + sitemap SEO (**30% organic growth**)<br>10+ payment methods incl. EMI/COD in a multi-step checkout · map-based address selection<br>RTK Query optimistic updates (**40% fewer API calls**) · NextAuth social + OTP login |
+| `AKG SALES LIVE` | `2.8M OUTLETS · 4,500+ REPS · ~10K GPX USERS · 2,000+ UPDATES/S` | Live sales map — **25% fewer route deviations** · MQTT/Pusher streaming<br>Server-side proxy routes + JWT + RBAC<br>Batched MQTT updates · memoized components · RTK Query caching |
+| `VERIFY` | `13+ FINANCIAL INSTITUTIONS` | CPV workflow dashboard · versioned API handshake<br>Multi-state workflow (pending / approved / rejected) · modular React + TS architecture<br>**Bangladesh Fintech Award 2023** |
+| `GEO-FIBER` | `46,500+ KM FIBER · 100MB UPLOADS` | Deck.gl icon/path/text layers · Multer + unzipper + @tmcw/togeojson KMZ/KML pipeline<br>Pusher live processing · shortest-route + SPOF analysis<br>Sentry + PM2 |
+| `JTI` | `~6K LIVE USERS` | Live routes, outlets, field force over MQTT + deck.gl<br>TLP + period-comparison views · Ant Design charts<br>Turf.js geo-reporting · nuqs URL-driven filters |
+| `SALESKOI` | `RETAIL SAAS PLATFORM` | Next.js + Redux Toolkit + TanStack Table · MQTT live updates<br>Outlets, dealers, hierarchy, attendance, TA/DA claims<br>react-bkoi-gl map view · Comlink workers + idb cache + cmdk · prod/staging/review CI |
+| `DROPX` | `LOGISTICS OPERATIONS` | Merchant + admin panels · deck.gl fleet tracking over MQTT and Pusher<br>Riders, merchants, agents + delivery rates + ticketing<br>WKT polygon zone editing · bulk Excel orders · Excel/PDF exports |
 
 ## <img height="20" src="https://api.iconify.design/withicons-anime/wrench.svg?color=%23FDD835" alt="" /> Equipment
 
