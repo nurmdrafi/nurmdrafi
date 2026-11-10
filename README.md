@@ -189,8 +189,10 @@
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/eslint.svg" alt="ESLint" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/prettier.svg" alt="Prettier" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/pnpm-dark.svg" alt="pnpm" />
+  <img height="26" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/yarn-icon.svg" alt="Yarn" />
   <img height="26" src="https://api.iconify.design/logos/markdown.svg?color=%23ffffff" alt="Markdown" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/json.svg" alt="JSON" />
+  <img height="26" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/yaml-icon.svg" alt="YAML" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/npm.svg" alt="npm" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/sublime.svg" alt="Sublime Text" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/vim.svg" alt="Vim" />
@@ -199,9 +201,11 @@
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/homebrew.svg" alt="Homebrew" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/brave.svg" alt="Brave" />
   <img height="26" src="https://cdn.jsdelivr.net/gh/xandemon/developer-icons@main/icons/discord.svg" alt="Discord" />
+  <img height="26" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/reddit-icon.svg" alt="Reddit" />
+  <img height="26" src="https://raw.githubusercontent.com/nurmdrafi/nurmdrafi/main/assets/medium-icon.svg" alt="Medium" />
 </p>
 
-<sub><code>DOCUSAURUS · STORYBOOK · FIGMA · GIT · GITHUB · VITE · WEBPACK · ROLLUP · BABEL · ESLINT · PRETTIER · PNPM · MARKDOWN · JSON · NPM PACKAGE DEVELOPMENT · SUBLIME TEXT · VIM · VS CODE · GHOSTTY · HOMEBREW · BRAVE · DISCORD</code></sub>
+<sub><code>DOCUSAURUS · STORYBOOK · FIGMA · GIT · GITHUB · VITE · WEBPACK · ROLLUP · BABEL · ESLINT · PRETTIER · PNPM · YARN · MARKDOWN · JSON · YAML · NPM PACKAGE DEVELOPMENT · SUBLIME TEXT · VIM · VS CODE · GHOSTTY · HOMEBREW · BRAVE · DISCORD · REDDIT · MEDIUM</code></sub>
 
 ## <img height="20" src="https://api.iconify.design/withicons-anime/package.svg?color=%23FDD835" alt="" /> Open source · depot
 
